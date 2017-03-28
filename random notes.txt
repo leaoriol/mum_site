@@ -1,0 +1,61 @@
+random notes
+
+first container
+then row
+then columns inside the row
+adds up to 12 columns
+
+inline - text
+inline block - like a span item - span tag with text in it, it wont go to the next line
+block - block elements are like divs - next element will eb on another line (i.e. headers, paragraphs, list)
+
+pseudo class - css - extra definitions for an element
+
+create page specific css sheet but still include teh styles.css page in the new html for the new page
+link the index.html page to the new pages
+
+
+
+TO DO:
+create coaching page
+create about me page
+create references page
+create news page
+create contact page
+add icon to the top of website for display in tab
+
+
+
+for the opacity - wrap the photo into abother div so that the photo does not become the parent 
+OR
+create a div that spans everything on top of the photo and make it a white see through layer and then add another div inside for the box with teh contact info
+
+
+							<h1 class="title">Contact</h1>
+							<h2 class="subtitle">Addresse administrative</h2>
+							<hr></hr>
+							<h3 class="subsubtitle">Laure Oriol SARL</h3>
+							<h3 class="subsubtitle">Chemin de Trépomy 8</h3>
+							<h3 class="subsubtitle">CH - 1299 Crans-près-Céligny</h3>
+
+
+							<div class="row">
+					<div class="col-xs-6 col-lg-6">
+						<img src="photo-contact.png" alt="Laure Oriol" width="504" height="415" align="right">
+					</div>
+					<div class="col-xs-6 col-lg-6">
+						<div class="contact-box center">
+							<h2 class="center">Contact</h2>
+							<p>email<p>
+							<p><a href="mailto:laureoriol@laureoriol.ch">laureoriol@laureoriol.ch</a></p>
+							<hr></hr>
+							<p>phone</p>
+							<p>+41 (79) 413 8450</p>
+							<hr></hr>
+							<p>Addresse administrative</p>
+							<p>Laure Oriol SARL</p>
+							<p>Chemin de Trépomy 8</p>
+							<p>CH - 1299 Crans-près-Céligny</p>
+						</div>
+					</div>
+				</div>

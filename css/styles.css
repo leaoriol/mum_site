@@ -1,0 +1,367 @@
+/* COLORS 
+#cae4d8 MORNING SKY (rgb(202,228,216))
+#dcae1d HONEY
+#00303F CERULEAN (dark blue)
+#7a9d96 MIST
+*/
+
+body {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Lora', serif;
+	color: #00303F;
+}
+
+h1 {
+	margin: 0;
+	padding-top: 45px;
+	text-align: center;
+	font-size: 3.998em;
+}
+
+h2 {
+	color: #00303F;
+}
+
+hr {
+	text-align: center;
+	width: 130px;
+	border: none;
+	border-radius: 2px;
+	height: 2px;
+	background-color: #7a9d96;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.grey-section {
+	margin: 0;
+	background-color: #eff5f5;
+}
+
+
+/* nav bar with links */
+ 
+.name {
+	margin: 0;
+	padding-top: 45px;
+	text-align: center;
+	font-size: 1.414em;
+}
+
+.nav {
+	width: 100%;
+	height: 120px;
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+
+.nav-links {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+.nav-links li {
+	padding-top: 45px;
+	margin-right: 40px;
+	font-size: 15px;
+	display: inline-block;
+	border-top: 5px transparent solid;
+}
+
+.nav-links li:hover {
+	border-top: 5px #7a9d96 solid;
+	border-radius: 2px;
+}
+
+.nav-links ul > li:last-child {
+	margin-right: 0;
+}
+
+
+/* main section of welcome page */
+
+.title {
+	margin-top: 50px;
+	color: #00303F;
+}
+
+.subtitle {
+	text-align: center;
+	font-size: 25px;
+	color: #7a9d96;
+}
+
+.subsubtitle {
+	text-align: center;
+	font-size: 1.414em;
+	color: #293d3d;
+	padding-right: 35px;
+	padding-left: 35px;
+	line-height: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* offers for coaching */ 
+
+.offers-header {
+	text-align: center;
+}
+
+.offers-header:before {
+	content: '—';
+	color: #dcae1d;
+	font-size: 20px;
+	font-weight: 300;
+	margin-right: 10px;
+}
+
+.offers-header:after {
+	content: '—';
+	color: #dcae1d;
+	font-size: 20px;
+	font-weight: 300;
+	margin-left: 10px;
+}
+
+.icons {
+	font-size: 7em;
+	text-align: center;
+}
+
+
+/* quote */ 
+
+.quote {
+	line-height: 50px;
+}
+
+.center {
+	text-align: center;
+}
+
+.button {
+	background-color: #eff5f5;
+	border: 2px solid #7a9d96;
+    color: #7a9d96;
+    padding: 12px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 36px;
+}
+
+.button:hover {
+    background-color: #7a9d96; /* Green */
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+/* signature for footer */
+
+.signature {
+	display: inline-block;
+	margin-right: 40px;
+}
+
+
+.signature:last-child {
+	margin-right: 0;
+}
+
+@media (max-width: 500px) {
+	.signature {
+		display: block;
+		margin-right: 0;
+	}
+}
+
+.signature-item:after {
+	content: "|";
+	display: inline;
+	margin-left: 40px; 
+}
+
+@media (max-width: 500px) {
+	.signature-item:after {
+		display: none;
+	}
+}
+
+.links {
+	color: #7a9d96;
+}
+
+
+/* CONTACT PAGE */
+
+.photo-container {
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: block;
+}
+
+.photo-section {
+	width: 100%;
+	height: auto;
+	min-height: 500px;
+    position: relative;
+    z-index: 2;
+   	background-size: cover;
+    margin-top: -60px;
+}
+
+.transparent-background {
+	background-color: rgba(255,255,255,0.4);
+	width: 100%;
+	height: auto;
+	display: block;
+	min-height: 550px;
+	position: relative;
+	padding-top: 35px;
+    padding-bottom: 30px;
+    margin-top: -35px;
+    z-index: 2;
+}
+
+.container-fluid {
+    width: 85%;
+    max-width: 1400px;
+}
+
+.photo-text-background {
+	background-color: rgba(225,225,225,0.9);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 100%;
+	height: auto;
+}
+
+.photo-text {
+	z-index: 3;
+    display: block;
+    position: relative;
+    font-weight: 400;
+}
+
+/* ABOUT ME PAGE */
+
+.about-text-background {
+	background-color: rgba(225,225,225, 1);
+	padding-top: 40px;
+	padding-bottom: 80px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 100%;
+	height: auto;
+	position: relative;
+	left: 100px;
+	z-index: 1;
+	margin-top: 70px;
+	box-shadow: 0 0 10px #888888;
+}
+
+.about-text {
+	/*z-index: 3;*/
+    display: block;
+    position: relative;
+    line-height: 22px;
+    font-weight: 400;	
+    padding-left: 30px;
+    padding-right: 110px;
+}
+
+
+
+/* paddings */
+
+.pt1 {
+	padding-top: 6px;
+}
+
+.pt2 {
+	padding-top: 12px;
+}
+
+.pt3 {
+	padding-top: 24px;
+}
+.pt4 {
+	padding-top: 36px;
+}
+.pt5 {
+	padding-top: 48px;
+}
+.pt6 {
+	padding-top: 60px;
+}
+
+.pb1 {
+	padding-bottom: 6px;
+}
+.pb2 {
+	padding-bottom: 12px;
+}
+.pb3 {
+	padding-bottom: 24px;
+}
+.pb4 {
+	padding-bottom: 36px;
+}
+.pb5 {
+	padding-bottom: 48px;
+}
+.pb6 {
+	padding-bottom: 60px;
+}
+
+.pr1 {
+	padding-right: 6px;
+}
+.pr2 {
+	padding-right: 12px;
+}
+.pr3 {
+	padding-right: 24px;
+}
+.pr4 {
+	padding-right: 36px;
+}
+.pr5 {
+	padding-right: 48px;
+}
+.pr6 {
+	padding-right: 60px;
+}
+
+.pl1 {
+	padding-left: 6px;
+}
+.pl2 {
+	padding-left: 12px;
+}
+.pl3 {
+	padding-left: 24px;
+}
+.pl4 {
+	padding-left: 36px;
+}
+.pl5 {
+	padding-left: 48px;
+}
+.pl6 {
+	padding-left: 60px;
+}
+
