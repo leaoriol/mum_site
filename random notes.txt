@@ -31,6 +31,10 @@ OR
 create a div that spans everything on top of the photo and make it a white see through layer and then add another div inside for the box with teh contact info
 
 
+
+if time: • add that between HR elements
+
+
 							<h1 class="title">Contact</h1>
 							<h2 class="subtitle">Addresse administrative</h2>
 							<hr></hr>
@@ -59,3 +63,86 @@ create a div that spans everything on top of the photo and make it a white see t
 						</div>
 					</div>
 				</div>
+
+
+
+				<div class="container-fluid center">
+						<div class="row">
+							<div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3">
+								<div class="photo-text-background">
+									<div class="photo-text">
+										<h1 class="pb4 pt2">contact</h1>
+										<p>email</p>
+										<p><a href="mailto:laureoriol@laureoriol.ch">laureoriol@laureoriol.ch</a></p>
+										<hr></hr>
+										<p>phone</p>
+										<p>+41 (79) 413 8450</p>
+										<hr></hr>
+										<p>Chemin de Trépomy 8</p>
+										<p>CH - 1299 Crans-près-Céligny</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+								<div class="events">
+									<ol>
+										<li><a href="#0" data-date="1986" class="selected" style="left: 120px;">1986</a></li>
+										<li><a href="#0" data-date="2002" class="selected" style="left: 300px;">2002</a></li>
+										<li><a href="#0" data-date="2004" class="selected" style="left: 300px;">2004</a></li>
+										<li><a href="#0" data-date="2007" class="selected" style="left: 300px;">2007</a></li>
+										<li><a href="#0" data-date="2009" class="selected" style="left: 300px;">2009</a></li>
+										<li><a href="#0" data-date="2011" class="selected" style="left: 300px;">2011/2012</a></li>
+										<li><a href="#0" data-date="2013" class="selected" style="left: 300px;">2013</a></li>
+									</ol>
+									<span class="filling-line" aria-hidden="true"></span>
+								</div> <!-- events -->
+							</div> <!-- events-wrapper -->
+
+							<ul class="cd-timeline-navigation">
+								<li><a href="#0" class="prev inactive">Prev</a></li>
+								<li><a href="#0" class="next">Next</a></li>
+							</ul>
+						</div> <!-- timeline -->
+
+						<div class="events-content" style="height: 276px;">
+							<ol>
+								<li class="selected" data-date="1986">
+									<h2>Test</h2>
+									<em>Test</em>
+									<p>test</p>
+								</li>
+								<li class="selected" data-date="2002">
+									<h2>Test2</h2>
+									<em>Test2</em>
+									<p>test2</p>
+								</li>
+								<li class="selected" data-date="2004">
+									<h2>Test</h2>
+									<em>Test</em>
+									<p>test</p>
+								</li>
+								<li class="selected" data-date="2007">
+									<h2>Test</h2>
+									<em>Test</em>
+									<p>test</p>
+								</li>
+								<li class="selected" data-date="2009">
+									<h2>Test</h2>
+									<em>Test</em>
+									<p>test</p>
+								</li>
+								<li class="selected" data-date="2011">
+									<h2>Test</h2>
+									<em>Test</em>
+									<p>test</p>
+								</li>
+								<li class="selected" data-date="2013">
+									<h2>Test</h2>
+									<em>Test</em>
+									<p>test</p>
+								</li>
+							</ol>
