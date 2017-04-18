@@ -374,12 +374,12 @@ hr {
 
 .values-description {
 	font-size: 1.1em;
-    font-weight: 200;
-    letter-spacing: 0.5px;
-    text-align: center;
-    padding: 20px;
-    line-height: 22px;
-    border: 1px rgba(202,228,216, 0.6) solid;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding: 20px;
+  line-height: 22px;
+  border: 1px rgba(202,228,216, 0.6) solid;
 }
 
 
@@ -939,6 +939,70 @@ strong {
     letter-spacing: 3px;
 }
 
+/* REFERENCES */
+
+.references-border {
+	border: #dcae1d 1px solid;
+	border-radius: 50%;
+	display: flex;
+  justify-content: center;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin:auto;
+	width: 210px;
+	height: 210px;
+}
+
+.references-picture {
+	display: flex;
+  justify-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.round-picture {
+	border-radius: 50%;
+}
+
+.references-wrapping {
+  padding: 40px;
+  border: 1px rgba(202,228,216, 0.6) solid;
+}
+
+.references-text:before {
+	content: open-quote;
+}
+
+.references-text:after {
+	content: close-quote;
+}
+
+.references-text {
+  font-size: 1.2em;
+  font-weight: 100;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+}
+
+.references-people {
+  font-size: 0.9em;
+  font-weight: 200;
+}
+
+.references-clients-title {
+	font-size: 3.2em;
+	padding-bottom: 12px;
+}
+
+.logo-image {
+	width: 100%;
+	max-width: 200px;
+	height: 100%;
+	max-height: 200px;
+}
 
 /* paddings */
 
