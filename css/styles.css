@@ -48,21 +48,18 @@ hr {
 	background-color: #eff5f5;
 }
 
-
 /* nav bar with links */
- 
-.name {
-	margin: 0;
-	padding-top: 45px;
-	text-align: center;
-	font-size: 1.414em;
-}
 
 .nav {
 	width: 100%;
 	height: 120px;
 	font-size: 20px;
 	margin-bottom: 60px;
+}
+
+.nav-bar {
+	border-bottom: 2px solid #cae4d8;
+  width: 100%;
 }
 
 .nav-links {
@@ -74,18 +71,27 @@ hr {
 .nav-links li {
 	padding-top: 45px;
 	margin-right: 40px;
-	font-size: 15px;
+	font-size: 18px;
+	font-weight: 200;
 	display: inline-block;
 	border-top: 5px transparent solid;
+	margin-bottom: 15px;
 }
 
 .nav-links li:hover {
 	border-top: 5px #7a9d96 solid;
-	border-radius: 2px;
+	/*border-radius: 2px;*/
 }
 
 .nav-links ul > li:last-child {
 	margin-right: 0;
+}
+
+.name {
+	margin: 0;
+	padding-top: 45px;
+	text-align: center;
+	font-size: 1.414em;
 }
 
 
@@ -942,7 +948,7 @@ strong {
 /* REFERENCES */
 
 .references-border {
-	border: #dcae1d 1px solid;
+	border: #dcae1d 2px solid;
 	border-radius: 50%;
 	display: flex;
   justify-content: center;
@@ -969,15 +975,38 @@ strong {
 
 .references-wrapping {
   padding: 40px;
-  border: 1px rgba(202,228,216, 0.6) solid;
+  border: 2px rgba(202,228,216, 0.6) solid;
 }
 
-.references-text:before {
-	content: open-quote;
+blockquote {
+  border:none;
+  quotes: "\201C""\201D""\2018""\2019";
 }
 
-.references-text:after {
-	content: close-quote;
+blockquote:before {
+  color: rgb(202,228,216);
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after {
+  color: rgb(202,228,216);
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+	display: inline;
+}
+
+blockquote h2 {
+	display: inline;
 }
 
 .references-text {
@@ -985,6 +1014,12 @@ strong {
   font-weight: 100;
   line-height: 26px;
   letter-spacing: 1.5px;
+}
+
+.references-names {
+	font-size: 1.1em;
+	font-weight: 200;
+	padding-bottom: 3px;
 }
 
 .references-people {
