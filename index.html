@@ -4,6 +4,7 @@
 		<title>Laure Oriol</title>
 		<link rel="stylesheet" href="css/bootstrap-theme.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/reset.css"> <!--CSS reset -->
 		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="css/styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,9 +15,9 @@
 
 	<body>
 		<section>
-			<div class="nav">
+			<div>
 				<div class="container nav-bar">
-					<div class="row">
+					<div class="row pb2">
 						<div class="col-xs-4 col-lg-4">
 							<div class="nav-links">
 								<ul class="nav-links">
@@ -39,39 +40,57 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> <!-- navbar -->
 		<section>
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-6 col-lg-6">
-						<h1 class="title">Business Coach</h1>
-						<h2 class="subtitle">en coaching individuel et d'équipe</h2>
-						<hr></hr>
-						<h3 class="subsubtitle">Autonomie, indépendence, et épanouissement. Découvrez vos ressources, et atteignez vos objectifs de développement</h3>
-					</div>
-					<div class="col-xs-6 col-lg-6">
-						<img src="photo-home.png" alt="Laure Oriol" width="504" height="415" align="right">
+				<div class="photo-container-homepage">
+					<div class="photo-section-homepage" style="background-image: url(images/alejandro-escamilla-2.jpg)">
+						<div class="photo-transparent-layer aligner">
+							<div class="container center">
+								<div class="row aligner-item">
+									<div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3">
+										<div class="photo-text-background">
+											<h3 class="pt4 title">Business Coach</h3>
+											<h3 class="pb2 pt1 subtitle">en coaching individuel et d'équipe</h3>
+											<hr></hr>
+											<h3 class="pb1 pt2 subsubtitle">Autonomie. Equilibre. Réussite.</h3>
+											<p class="why-coaching-text pb3">Epanouissez-vous dans votre vie professionelle.</p>
+											<div class="pb3"><button type="button" class="button button-title-properties">Contactez-moi</button></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
 		</section>
 		<section class="white-section">
-			<div class="container">
-				<div class="row pt5">
-					<h3 class="offers-header">Découvrez le coaching</h3>
-				</div>
-				<div class="row pt3 pb6 icons">
+			<div class="container pb4">
+				<div class="row pt7 center">
 					<div class="col-xs-12 col-lg-4">
 						<img src="icons/businessman.svg" alt="Coaching Individuel" width="100" height="100" align="center">
-						<h4>Coaching Individuel</h4>
+						<p class="offres-home-page-title pt4 pb2">Offres Coaching</p>
+						<p class="offres-home-page pt2">Révélez vos talents au travers du coaching. Le coaching individuel vous permet d'atteindre vos objectifs. Le coaching d'équipe revitalise votre équipe. Le conseil RH vous aide à évaluer les atouts.</p>
 					</div>
 					<div class="col-xs-12 col-lg-4">
 						<img src="icons/conference_call.svg" alt="Coaching Individuel" width="100" height="100" align="center">
-						<h4>Coaching d'équipe</h4>
+						<p class="offres-home-page-title pt4 pb2">Ateliers</p>
+						<p class="offres-home-page pt2">Adoptez les meilleures pratiques possibles au travers d'ateliers concrets, centrés sur le développement personnel. Chaque atelier vous permet d'explorer une facette de vous-mêmes.</p>
 					</div>
 					<div class="col-xs-12 col-lg-4">
 						<img src="icons/todo_list.svg" alt="Coaching Individuel" width="100" height="100" align="center">
-						<h4>Conseil RH</h4>
+						<p class="offres-home-page-title pt4 pb2">Références</p>
+						<p class="offres-home-page pt2">L'une des leçons les plus importantes du coaching est l'importance du feedback. Découvrez les bénéfices du coaching au travers de nombreuses références clients.</p>
+					</div>
+				</div>
+				<div class="row pb6 center">
+					<div class="col-xs-12 col-lg-4">
+						<button type="button" class="button button-quote-properties">En savoir plus</button>
+					</div>
+					<div class="col-xs-12 col-lg-4">
+						<button type="button" class="button button-quote-properties">En savoir plus</button>
+					</div>
+					<div class="col-xs-12 col-lg-4">
+						<button type="button" class="button button-quote-properties">En savoir plus</button>
 					</div>
 				</div>
 			</div>
@@ -79,33 +98,44 @@
 		<section class="grey-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 col-lg-5 pt4 pb6">
-						<img src="File_004.jpeg" width="300" height="300" alt="Laure Oriol" align="right">
+					<div class="col-xs-12 col-lg-6 center">
+						<img src="mum_home_page.jpeg" height="560" width="504" alt="Laure Oriol">
 					</div>
-					<div class="col-xs-12 col-lg-7 pt6 pb4 pr5 pl5 center">
-						<blockquote><h2 class="quote pr1 pl1">Le coach devient un miroir avec lequel on parvient à approfondir tous les sujets.</h2></blockquote>
-						<p>Eric Savoye</p>
-						<p> Directeur Contrôle de Gestion et Informatique, Conforama Suisse</p>
-						<button type="button" class="button">Références</button>
+					<div class="col-xs-12 col-lg-6 pt6 pb4 pr5 pl5">
+						<p class="pt6 pb5 why-coaching-title">Pourquoi le coaching?</p>
+						<p class="pb3 why-coaching-subtitle">Au travers du coaching, vous pouvez vous recentrez sur vous-mêmes et atteindre vos ojectifs de dévelopement.</p>
+						<p class="why-coaching-text">Certaines situations professionelles peuvent présenter des obstacles qui paraissent difficiles à surmonter.</p>
+						<p class="why-coaching-text pt2">Le coaching, les ateliers de dévelopement, et le conseil en resources humaines vous aident à réaliser votre propre potentiel et vous recentrer sur vous-mêmes pour être plus efficace, confiant(e) et heureu(se)x.</p>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> <!-- why coaching -->
 		<section class="white-section">
 			<div class="container">
-				<div class="row pt5 pb5 center">
-					<div class="signature">
+				<div class="row center pt4 pb5">
+					<div class="col-md-12">
+						<h3 class="contact-me-title">Saisissez votre carrière</h3>
+						<h3 class="contact-me-subtitle">Travaillons ensemble pour atteindre vos objectifs.</h3>
+						<button type="button" class="button contact-me-button-properties">Contactez-moi</button>
+					</div>
+				</div>
+			</div>
+		</section> <!-- contactez-moi -->
+		<section class="white-section signature">
+			<div class="container">
+				<div class="row pt3 pb3 center">
+					<div class="signature-div">
 						<p class="signature-item">© 2017 Laure Oriol - Business Coaching Conseil RH</p>
 					</div>
-					<div class="signature"> 
+					<div class="signature-div"> 
 						<p class="signature-item"><a href="mailto:laureoriol@laureoriol.ch" class="links">laureoriol@laureoriol.ch</a></p>
 					</div>
-					<div class="signature">
+					<div class="signature-div">
 						<a href="https://ch.linkedin.com/in/laure-oriol-78a6781" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> <!-- signature -->
 	</body>
 
 </html>

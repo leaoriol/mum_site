@@ -48,14 +48,7 @@ hr {
 	background-color: #eff5f5;
 }
 
-/* nav bar with links */
-
-.nav {
-	width: 100%;
-	height: 120px;
-	font-size: 20px;
-	margin-bottom: 60px;
-}
+/* ------------- NAV BAR ---------------------*/
 
 .nav-bar {
 	border-bottom: 2px solid #cae4d8;
@@ -94,97 +87,16 @@ hr {
 	font-size: 1.414em;
 }
 
-
-/* main section of welcome page */
-
-.title {
-	margin-top: 50px;
-	color: #00303F;
-}
-
-.subtitle {
-	text-align: center;
-	font-size: 25px;
-	color: #7a9d96;
-}
-
-.subsubtitle {
-	text-align: center;
-	font-size: 1.414em;
-	color: #293d3d;
-	padding-right: 35px;
-	padding-left: 35px;
-	line-height: 30px;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-
-/* offers for coaching */ 
-
-.offers-header {
-	text-align: center;
-}
-
-.offers-header:before {
-	content: '—';
-	color: #dcae1d;
-	font-size: 20px;
-	font-weight: 300;
-	margin-right: 10px;
-}
-
-.offers-header:after {
-	content: '—';
-	color: #dcae1d;
-	font-size: 20px;
-	font-weight: 300;
-	margin-left: 10px;
-}
-
-.icons {
-	font-size: 7em;
-	text-align: center;
-}
-
-
-/* quote */ 
-
-.quote {
-	line-height: 50px;
-}
-
-.center {
-	text-align: center;
-}
-
-.button {
-	background-color: #eff5f5;
-	border: 2px solid #7a9d96;
-    color: #7a9d96;
-    padding: 12px 29px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 4px;
-    margin-top: 36px;
-}
-
-.button:hover {
-    background-color: #7a9d96; /* Green */
-    border: 2px solid white;
-    color: white;
-}
-
-
-
-/* signature for footer */
+/* ----------------- FOOTER --------------------*/
 
 .signature {
+	background-color: darkgrey;
+}
+
+.signature-div {
 	display: inline-block;
 	margin-right: 40px;
 }
-
 
 .signature:last-child {
 	margin-right: 0;
@@ -214,7 +126,146 @@ hr {
 }
 
 
-/* CONTACT PAGE */
+/* ----------------- HOME PAGE -----------------*/
+
+.title {
+	font-family: Lora;
+  font-weight: 200;
+  font-size: 3.3em;
+  color: #00303F;
+  line-height: 76px;
+  letter-spacing: 4px;
+}
+
+.subtitle {
+	text-align: center;
+	font-size: 25px;
+	color: #7a9d96;
+}
+
+.subsubtitle {
+	text-align: center;
+	font-size: 1.414em;
+	color: #293d3d;
+	padding-right: 35px;
+	padding-left: 35px;
+	line-height: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.button {
+	border: 2px solid #7a9d96;
+  color: #7a9d96;
+  padding: 12px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.button-title-properties {
+	background-color: rgba(255,247,224,0.2);
+}
+
+.photo-container-homepage {
+	height: 700px;
+	width: 100%;
+	position: relative;
+	display: block;
+}
+
+.photo-section-homepage {
+	width: 100%;
+	height: 700px;
+	min-height: 700px;
+  position: relative;
+  z-index: 2;
+ 	background-size: cover;
+}
+
+.photo-transparent-layer {
+	background-color: rgba(255,247,224,0.2);
+  width: 100%;
+  height: auto;
+  display: block;
+  min-height: 700px;
+  position: relative;
+  z-index: 2;
+}
+
+.offres-home-page-title {
+	font-size: 2em;
+  font-weight: 100;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+}
+
+.offres-home-page {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.why-coaching-title {
+	font-size: 2em;
+	color: #00303F;
+}
+
+.why-coaching-subtitle {
+	font-size: 1.1em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 23px;
+  font-style: italic;
+}
+
+.why-coaching-text {
+  font-size: 1.1em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 23px;
+}
+.center {
+	text-align: center;
+}
+
+.button-quote-properties {
+	background-color: white;
+	margin-top: 36px;
+}
+
+.button:hover {
+    background-color: #7a9d96; /* Green */
+    border: 2px solid white;
+    color: white;
+}
+
+.contact-me-title {
+  font-family: Lora;
+  font-weight: 200;
+  font-size: 2.5em;
+  color: #00303F;
+  line-height: 76px;
+  letter-spacing: 2px;
+}
+
+.contact-me-subtitle {
+	text-align: center;
+  font-size: 17px;
+  color: #7a9d96;
+}
+
+.contact-me-button-properties {
+	background-color: white;
+	margin-top: 30px;
+}
+
+
+/* ---------------- CONTACT PAGE -------------- */
 
 .photo-container {
 	width: 100%;
@@ -252,9 +303,9 @@ hr {
 	min-height: 550px;
 	position: relative;
 	/*padding-top: 35px;*/
-    padding-bottom: 30px;
-    margin-top: -35px;
-    z-index: 2;
+  padding-bottom: 30px;
+  margin-top: -35px;
+  z-index: 2;
 }
 
 .container-fluid {
@@ -270,21 +321,22 @@ hr {
 
 .photo-text-background {
 	background-color: rgba(225,225,225,0.9);
-	display: flex;
+	/*display: flex;*/
 	lign-items: center;
-  	justify-content: center;
+  justify-content: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-right: 20px;
 	padding-left: 20px;
 	width: 100%;
+	height: auto;
 }
 
 .photo-text {
 	z-index: 3;
-    display: block;
-    position: relative;
-    font-weight: 400;
+  display: block;
+  position: relative;
+  font-weight: 400;
 }
 
 /* ABOUT ME PAGE */
@@ -300,10 +352,10 @@ hr {
 	width: 100%;
 	height: 500px;
 	min-height: 500px;
-    position: relative;
-    z-index: 2;
-   	background-size: cover;
-    margin-top: -60px;
+  position: relative;
+  z-index: 2;
+ 	background-size: cover;
+  margin-top: -60px;
 }
 
 .about-text-background {
