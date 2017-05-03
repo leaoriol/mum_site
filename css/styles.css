@@ -872,7 +872,16 @@ hr {
   }
 }
 
-/* OFFRES COACHING */
+
+/* -------------------- OFFRES COACHING ---------- */
+
+.coaching-transparent {
+	background-color: rgba(255,255,255,0.1);
+	width: 100%;
+	min-height: 500px;
+	position: relative;
+	z-index: 2;
+}
 
 .header {
 	font-size: 2.2em;
@@ -881,10 +890,11 @@ hr {
 }
 
 .text-offres-icon {
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.05em;
     display: inline;
     line-height: 28px;
+    letter-spacing: 0.5px;
 }
 
 .icon-offres {
@@ -898,9 +908,8 @@ hr {
 }
 
 .questions li {
-	font-size: 1.1em;
+	font-size: 1em;
 	padding-top: 20px;
-	line-height: 18px;
 	font-weight: 100;
 	margin-left: 18px;
 }
@@ -914,12 +923,17 @@ hr {
 
 .offres-hr {
 	margin-bottom: 20px;
-    margin-top: 0px;
-    width: 40%;
-    text-align: left;
-    margin-left: 0;
-    height: 1px;
-    background-color: #dcae1d;
+  margin-top: 0px;
+  width: 40%;
+  text-align: left;
+  margin-left: 0;
+  height: 1px;
+  background-color: #dcae1d;
+}
+
+.list-border {
+	border-top: 2px orange solid;
+	border-left: 2px orange solid;
 }
 
 .text-offres {
@@ -929,17 +943,27 @@ hr {
 }
 
 .offres-description{
+	font-size: 1em;
+	font-weight: 200;
+	letter-spacing: 0.5px;
 	padding-left: 40px;
-    padding-right: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 35px;
-    line-height: 29px;
-    border: 1px rgba(220,174,29, 0.6) solid;
-
+  padding-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  line-height: 29px;
 }
 
+.box-offres {
+	background-color: orange;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
 
 .equipe-title-background {
 	border: #cae4d8 3px solid;
@@ -982,7 +1006,15 @@ strong {
 	font-weight: 900;
 }
 
-/* ATELIERS */
+/* ---------------------- ATELIERS ---------------- */
+
+.ateliers-transparent {
+	background-color: rgba(255,255,255,0.1);
+	width: 100%;
+	min-height: 500px;
+	position: relative;
+	z-index: 2;
+}
 
 .atelier-title-description {
 	font-size: 1.1em;
