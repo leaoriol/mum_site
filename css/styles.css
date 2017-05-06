@@ -884,17 +884,17 @@ hr {
 }
 
 .header {
-	font-size: 2.2em;
-    font-weight: 200;
-    display: inline-block;
+	font-size: 1.8em;
+  font-weight: 200;
+  display: inline-block;
 }
 
 .text-offres-icon {
-    font-weight: 200;
-    font-size: 1.05em;
-    display: inline;
-    line-height: 28px;
-    letter-spacing: 0.5px;
+  font-weight: 200;
+  font-size: 1.05em;
+  display: inline;
+  line-height: 28px;
+  letter-spacing: 0.5px;
 }
 
 .icon-offres {
@@ -907,18 +907,37 @@ hr {
 	display:block;
 }
 
+.button-learn-more {
+  border: 2px solid white;
+  color: white;
+  background-color: #7a9d96;
+  padding: 12px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+
+}
+.button-learn-more:hover {
+  background-color: white;
+  border: 2px solid #7a9d96;
+  color: #7a9d96;
+}
+
+
 .questions li {
 	font-size: 1em;
 	padding-top: 20px;
 	font-weight: 100;
 	margin-left: 18px;
+  letter-spacing: 0.5px;
 }
 
 .offres-title {
-	font-size: 1.6em;
-    font-weight: 200;
-    letter-spacing: 2px;
-    margin-bottom: 25px;
+	font-size: 1.2em;
+  /*font-weight: 200;*/
+  letter-spacing: 1.5px;
 }
 
 .offres-hr {
@@ -940,29 +959,45 @@ hr {
     font-weight: 100;
     font-size: 1em;
     line-height: 28px;
+    letter-spacing: 0.5px;
 }
 
-.offres-description{
+.offres-description {
 	font-size: 1em;
-	font-weight: 200;
+	font-weight: 300;
 	letter-spacing: 0.5px;
-	padding-left: 40px;
   padding-right: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 40px;
-  padding-bottom: 35px;
   line-height: 29px;
+  padding-top: 20px;
 }
 
 .box-offres {
-	background-color: orange;
+	background-color: #7a9d96;
+  color: white;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 50px;
   margin-left: 45px;
   margin-right: 45px;
+}
+
+.button-coaching {
+  border: 2px solid white;
+  color: white;
+  background-color: #7a9d96;
+  padding: 12px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.button-coaching:hover {
+    background-color: white;
+    border: 2px solid white;
+    color: #7a9d96;
 }
 
 .equipe-title-background {
@@ -970,7 +1005,7 @@ hr {
 	border-radius: 50%;
 	display: flex;
 	lign-items: center;
-  	justify-content: center;
+  justify-content: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-right: 20px;
@@ -989,8 +1024,10 @@ hr {
 
 .equipe-text {
 	font-weight: 300;
-    font-size: 0.95em;
-    line-height: 23px;
+  font-size: 1em;
+  line-height: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .values-text-small {
@@ -1004,6 +1041,8 @@ hr {
 
 strong {
 	font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 0.5px;
 }
 
 /* ---------------------- ATELIERS ---------------- */
