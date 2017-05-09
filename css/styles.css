@@ -71,6 +71,12 @@ hr {
 	margin-bottom: 15px;
 }
 
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+
 .nav-links li:hover {
 	border-top: 5px #7a9d96 solid;
 	/*border-radius: 2px;*/
@@ -85,6 +91,7 @@ hr {
 	padding-top: 45px;
 	text-align: center;
 	font-size: 1.414em;
+  letter-spacing: 3px;
 }
 
 /* ----------------- FOOTER --------------------*/
@@ -177,6 +184,10 @@ hr {
 
 .button-title-properties {
 	background-color: rgba(255,247,224,0.2);
+}
+
+.button:hover {
+  text-decoration: none;
 }
 
 .photo-container-homepage {
@@ -301,37 +312,12 @@ hr {
   z-index: 2;
 }
 
-/* might get rid of this one - verify if used */
-/*.transparent-background {
-	background-color: rgba(255,255,255,0.4);
-	width: 100%;
-	height: auto;
-	display: block;
-	min-height: 550px;
-	position: relative;
-	/*padding-top: 35px;
-  padding-bottom: 30px;
-  margin-top: -35px;
-  z-index: 2;
-}*/
-
 .contact-title {
     padding-top: 45px;
     text-align: center;
     font-size: 3em;
     letter-spacing: 7.5px;
 }
-
-/*.container-fluid {
-    width: 100%;
-    height: auto;
-    display: block;
-    min-height: 500px;
-    position: relative;
-    padding-top: 35px;
-    padding-bottom: 30px;
-    margin-top: -35px;
-}*/
 
 .photo-text-background {
 	background-color: rgba(225,225,225,0.9);
@@ -368,6 +354,10 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 10px;
 	color: #dcae1d;
+}
+
+.contact-pin {
+  font-size: 30px;
 }
 
 
@@ -1055,6 +1045,13 @@ strong {
 	z-index: 2;
 }
 
+.ateliers-title {
+  font-size: 2.8em;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #00303F;
+}
+
 .atelier-title-description {
 	font-size: 1.1em;
     font-weight: 100;
@@ -1064,26 +1061,26 @@ strong {
 
 .flip {
 	height: 199px;
-    width: 300px;
-    margin: 0 auto;
+  width: 300px;
+  margin: 0 auto;
 }
 
 .front {
-    width: 300px;
-    height: auto;
+  width: 300px;
+  height: auto;
 }
 
 .back {
-    text-align: center;
-    color: #7a9d96;
+  text-align: center;
+  color: white;
 }
 
-.atelier-title-background {
+.atelier-title-background-front {
 	border: #7a9d96 2px solid;
 	border-radius: 50%;
 	display: flex;
 	lign-items: center;
-  	justify-content: center;
+  justify-content: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-right: 25px;
@@ -1091,6 +1088,22 @@ strong {
 	margin:auto;
 	width: 250px;
 	height: 250px;
+}
+
+.atelier-title-background-back {
+  border: #7a9d96 2px solid;
+  background-color: #7a9d96;
+  border-radius: 50%;
+  display: flex;
+  lign-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin:auto;
+  width: 250px;
+  height: 250px;
 }
 
 .atelier-title-text {
@@ -1107,7 +1120,13 @@ strong {
     letter-spacing: 3px;
 }
 
-/* REFERENCES */
+.atelier-button-properties {
+  background-color: #eff5f5;;
+  margin-top: 30px;
+}
+
+
+/* ------------------- REFERENCES ---------------- */
 
 .references-border {
 	border: #dcae1d 2px solid;
