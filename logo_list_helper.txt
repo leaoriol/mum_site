@@ -1,71 +1,95 @@
 logo list
 
-alcon novartis
-alpiq
-amitel
-AS AG ---- no pic --> mum found a pic - www.as-aufzuege.ch 
-Asrom ---- no pic
-Astural --- to add -- www.astural.org
-La Belle Etoile -- to add -- www.belle-etoile.ch
-Le Bosquet -- to add -- www.le-bosquet.ch
-briggs stratton
-Copeco -- to add
-CPI ---- no pic --> mum found a pic - www.cpi.ch
-collex bossy
-conforama
-coop
-CSM agence conseil
-datamed SA
-EMS Happy days
-EOS Suisse
-Etat de Fribourg
+ROW 1
+  X alcon novartis
+  X alpiq
+  X amitel
+  X AS AG ---- no pic --> mum found a pic - www.as-aufzuege.ch 
+TO TAKE OUT Asrom ---- no pic
+  X Astural --- to add -- www.astural.org
+  X La Belle Etoile -- to add -- www.belle-etoile.ch
+
+ROW 2
+  X Le Bosquet -- to add -- www.le-bosquet.ch
+  X briggs stratton
+  X Copeco -- to add
+FIND PICTURE CPI ---- no pic --> mum found a pic - www.cpi.ch
+  X collex bossy
+  X conforama
+
+ROW 3
+  X coop
+  X CSM agence conseil
+  X datamed SA
+  X EMS Happy days
+  X EOS Suisse
+  X Etat de Fribourg
+
+ROW 4
 Etat de Vaud
 Fayrouz
 Ferring
 Firmenich
 Foundation Petits Freres des Pauvres
 Fribourg Region -- to add - www.fribourgregion.ch
+
+ROW 5
 Fri Up -- to add - www.friup.ch/fr
 Federation Suisse de Gymnastique
 Canton de Geneve -- to add - www.ge.ch
 Group E
 Groupe Mutuel
 HEDS Geneve
+
+ROW 6 
+HEG geneve
 Hermes
 HES-SO
 Holcim
 Interiman
 Jesa
+
+ROW 7
 Lanxess
 Liebherr
 LGT --- to add - www.lgt.com
 Losinger Marazzi -- to add - www.losinger-marazzi.ch
 Manor
 MLC consulting
+
+ROW 8
 Migros
 NewWork
 Notre Dame du Lac -- to add - www.notre-dame-du-lac.ch
 Orange
 Pasan - Meyer Burger
 Pemsa
+
+ROW 9
 Pernod Ricard
 Rodelco
 Rolle Primeurs
 Romande Energie
 Schindler
 SFG -- to add - www.sfgsa.ch
+
+ROW 10
 Sotremo - Scan coin
 Swiss engineering
 Tokheim
 Transports Publics Fribourgeois
 Tupperware
 UCB Farchim
+
+ROW 11
 UEFA
 Union Patronale Suisse
 Union Patronale du canton de gribourg -- to add
 Versus Systems
 Commune d'Aigle
 Ville de Geneve
+
+ROW 12
 Ville de Plan les Ouates
 Ville de Thonex -- to add -- www.ipe-thonex.ch 
 World Economic Forum

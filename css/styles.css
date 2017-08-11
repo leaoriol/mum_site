@@ -1191,10 +1191,17 @@ blockquote h2 {
 }
 
 .references-text {
-  font-size: 1.2em;
+  font-size: 0.9em;
   font-weight: 100;
   line-height: 26px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
+}
+
+.references-title {
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .references-names {
@@ -1218,6 +1225,7 @@ blockquote h2 {
 	max-width: 150px;
 	height: 100%;
 	max-height: 150px;
+  text-align: center;
 }
 
 .row-height {
