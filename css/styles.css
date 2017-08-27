@@ -1,9 +1,14 @@
 /* COLORS 
 #cae4d8 MORNING SKY (rgb(202,228,216))
+  change to 
 #dcae1d HONEY (rgb)
 #00303F CERULEAN (dark blue)
+  change to #041e26 (dark blue grey)
 #7a9d96 MIST
+  change to   #7cad39 (closer to mum's colors)
 #93D239 MUM SITE COLOR rgb(147,210,57)
+
+#659127
 */
 
 /* horizontal timeline code from https://codyhouse.co/gem/horizontal-timeline/ */
@@ -19,8 +24,8 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Lora', serif;
-	color: #00303F;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #041e26;
 }
 
 h1 {
@@ -31,7 +36,7 @@ h1 {
 }
 
 h2 {
-	color: #00303F;
+	color: #041e26;
 }
 
 hr {
@@ -40,7 +45,7 @@ hr {
 	border: none;
 	border-radius: 2px;
 	height: 2px;
-	background-color: #7a9d96;
+	background-color: #7cad39;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -92,7 +97,7 @@ em {
 
 
 .nav-links li:hover {
-	border-top: 5px #7a9d96 solid;
+	border-top: 5px #7cad39 solid;
 	/*border-radius: 2px;*/
 }
 
@@ -101,6 +106,7 @@ em {
 }
 
 .name {
+  font-family: 'Lora', serif;
 	margin: 0;
 	padding-top: 45px;
 	text-align: center;
@@ -161,10 +167,9 @@ em {
 /* ----------------- HOME PAGE -----------------*/
 
 .title {
-	font-family: Lora;
   font-weight: 200;
   font-size: 3.3em;
-  color: #00303F;
+  color: #041e26;
   line-height: 76px;
   letter-spacing: 4px;
 }
@@ -172,23 +177,24 @@ em {
 .subtitle {
 	text-align: center;
 	font-size: 25px;
-	color: #7a9d96;
+	color: #7cad39;
 }
 
 .subsubtitle {
 	text-align: center;
 	font-size: 1.414em;
+  font-weight: 200;
+  font-family: 'Source Sans Pro', sans-serif;
 	color: #293d3d;
 	padding-right: 35px;
 	padding-left: 35px;
 	line-height: 30px;
-	font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 0.8px;
 }
 
 .button {
-	border: 2px solid #7a9d96;
-  color: #7a9d96;
+	border: 2px solid #7cad39;
+  color: #7cad39;
   padding: 12px 29px;
   text-align: center;
   text-decoration: none;
@@ -249,7 +255,7 @@ em {
 
 .why-coaching-title {
 	font-size: 2em;
-	color: #00303F;
+	color: #041e26;
 }
 
 .why-coaching-subtitle {
@@ -269,20 +275,18 @@ em {
 
 .button-quote-properties {
 	background-color: white;
-	margin-top: 36px;
 }
 
 .button:hover {
-    background-color: #7a9d96; /* Green */
+    background-color: #7cad39; /* Green */
     border: 2px solid white;
     color: white;
 }
 
 .contact-me-title {
-  font-family: Lora;
   font-weight: 200;
   font-size: 2.5em;
-  color: #00303F;
+  color: #041e26;
   line-height: 76px;
   letter-spacing: 2px;
 }
@@ -290,7 +294,7 @@ em {
 .contact-me-subtitle {
 	text-align: center;
   font-size: 17px;
-  color: #7a9d96;
+  color: #7cad39;
 }
 
 .contact-me-button-properties {
@@ -332,6 +336,7 @@ em {
     text-align: center;
     font-size: 3em;
     letter-spacing: 7.5px;
+    font-weight: 200;
 }
 
 .photo-text-background {
@@ -355,24 +360,24 @@ em {
 }
 
 .links-contact {
-	color: #00303F;
+	color: #041e26;
 }
 
 .address-header {
 	font-size: 1.8em;
 	font-weight: 100;
 	letter-spacing: 2px;
-	color: #00303F;
+	color: #041e26;
 }
 
 .address-marker {
-	margin-top: 20px;
-	margin-bottom: 10px;
-	color: #dcae1d;
+/*	margin-top: 12px;
+*/	margin-bottom: 10px;
+	color: rgb(147,210,57);
 }
 
 .contact-pin {
-  font-size: 30px;
+  font-size: 42px;
 }
 
 
@@ -403,9 +408,11 @@ em {
 }
 
 .about-text-signature {
-	padding-right: 110px;
+	padding-right: 130px;
   float: right;
-  padding-top: 30px;
+  padding-top: 40px;
+  font-weight: 100;
+  font-size: 1.25em;
 }
 
 .about-photo-format {
@@ -440,7 +447,7 @@ em {
 }
 
 .photo-text-background-about {
-	background-color: rgba(225,225,225,0.3);
+	background-color: rgba(225,225,225,0.5);
 	border: white 3px solid;
 	border-radius: 50%;
 	display: flex;
@@ -490,6 +497,11 @@ em {
 /* timeline */
 /* TIMELINE WITHIN REFERENCES */
 /* media only checks for desktop applications */
+
+.timeline-links {
+  color: #041e26;
+}
+
 .cd-container {
   /* class is used to give a max-width to element and center it horizontally when max width is reached */
   width: 90%;
@@ -564,7 +576,7 @@ em {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px white, inset 0 3px 0 rgba(0, 0, 0, 0.15), 0 3px 0 4px rgba(0, 0, 0, 0.15);
   background: #93D239; /* mum's color */
 }
 .cd-timeline-img i {
@@ -663,7 +675,7 @@ em {
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #00303F;
+  color: #041e26;
   font-size: 1.5em;
   letter-spacing: 1px;
   font-weight: 100;
@@ -892,7 +904,7 @@ em {
 .icon-offres {
 	display: block;
 	text-align: center;
-	color: #cae4d8;
+	color: rgba(124, 173, 57, 0.5);
 }
 
 .fa {
@@ -902,7 +914,7 @@ em {
 .button-learn-more {
   border: 2px solid white;
   color: white;
-  background-color: #7a9d96;
+  background-color: #7cad39;
   padding: 12px 29px;
   text-align: center;
   text-decoration: none;
@@ -913,8 +925,8 @@ em {
 }
 .button-learn-more:hover {
   background-color: white;
-  border: 2px solid #7a9d96;
-  color: #7a9d96;
+  border: 2px solid #7cad39;
+  color: #7cad39;
 }
 
 
@@ -964,7 +976,7 @@ em {
 }
 
 .box-offres {
-	background-color: #7a9d96;
+	background-color: rgba(124, 173, 57, 0.9);
   color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -977,7 +989,7 @@ em {
 .button-coaching {
   border: 2px solid white;
   color: white;
-  background-color: #7a9d96;
+  background-color: rgba(124, 173, 57, 0.9);
   padding: 12px 29px;
   text-align: center;
   text-decoration: none;
@@ -989,7 +1001,7 @@ em {
 .button-coaching:hover {
     background-color: white;
     border: 2px solid white;
-    color: #7a9d96;
+    color: #7cad39;
 }
 
 .equipe-title-background {
@@ -1009,9 +1021,9 @@ em {
 
 .equipe-title-text {
 	color: #7a9d96;
-    font-size: 1.15em;
-    line-height: 40px;
-    font-weight: 400;
+  font-size: 1.15em;
+  line-height: 40px;
+  font-weight: 400;
 }
 
 .equipe-text {
@@ -1051,7 +1063,7 @@ strong {
   font-size: 2.8em;
   font-weight: 300;
   letter-spacing: 0.5px;
-  color: #00303F;
+  color: #041e26;
 }
 
 .atelier-title-description {
@@ -1078,7 +1090,7 @@ strong {
 }
 
 .atelier-title-background-front {
-	border: #7a9d96 2px solid;
+	border: #7cad39 2px solid;
 	border-radius: 50%;
 	display: flex;
 	lign-items: center;
@@ -1093,8 +1105,8 @@ strong {
 }
 
 .atelier-title-background-back {
-  border: #7a9d96 2px solid;
-  background-color: #7a9d96;
+  border: #7cad39 2px solid;
+  background-color: #7cad39;
   border-radius: 50%;
   display: flex;
   lign-items: center;
@@ -1109,17 +1121,17 @@ strong {
 }
 
 .atelier-title-text {
-	color: #7a9d96;
-    font-size: 1.4em;
-    line-height: 46px;
-    font-weight: 200;
+	color: #7cad39;
+  font-size: 1.3em;
+  line-height: 46px;
+  font-weight: 200;
 }
 
 .atelier-text {
-    font-weight: 100;
-    font-size: 1.1em;
-    line-height: 28px;
-    letter-spacing: 3px;
+  font-weight: 100;
+  font-size: 1em;
+  line-height: 28px;
+  letter-spacing: 3px;
 }
 
 .atelier-button-properties {
@@ -1162,7 +1174,7 @@ strong {
 }
 
 .long {
-  height: 710px;
+  height: 740px;
 }
 
 .short {
@@ -1216,7 +1228,7 @@ blockquote h2 {
 
 .references-people {
   position: absolute;
-  top: 455px;
+  top: 475px;
   text-align: center;
   width: 275px;
 }
@@ -1257,6 +1269,13 @@ blockquote h2 {
 	height: 160px;
 	margin-left: 0;
 	margin-right: 0;
+}
+
+.references-private-clients {
+  font-size: 1.8em;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #041e26;
 }
 
 /* -------------- SHARED --------------------- */

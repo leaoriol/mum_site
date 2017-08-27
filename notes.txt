@@ -1,3 +1,104 @@
+8/27
+
+nav bar
+          X  À propos
+
+index
+          X deux polices - 
+          X single font - 'Source Sans Pro', sans-serif 
+          X try to be a little more green for the subtitles
+          X take out the images width and height
+          X vous-meme
+          X prenez en main--> source sans pro
+          X single font
+          X change the color of travaillons ensemble to same as subtitles
+
+
+coaching
+X 1st banner --> make the text stand out more by making the circle more opaure
+X if can find picture with women would be better
+          X 2nd banner with 3 offres: 
+          X permet de travailler sur l'intelligence collective 
+X 3rd banniere --> make the text stnad out more
+  make the coffee to the right a bit
+X 5th banner with picture of women 
+  if can find a picture with a real team 
+          X would it be possible to have the clicking and turning of the round stuff - clicking the round 
+          X Instead of the intelligence collective --> atelier intelligence collective
+          X benner conseil resources humaines
+          X round turning again instead of current layout
+
+ateliers
+X banner - change the picture because of hte nails
+ideally with many people 
+          X developper de meilleures pratiques = change police
+
+          references
+          X hervé gorant - "J'ai solicité Laure Oriol dans l'exercice d'anciennes responsabilités"
+          X kulling: Suisse Romande
+          X banner good
+          X et tous les clients privés et confidentiels larger font
+
+a propos
+- photo get from mum
+          X text
+          X et ses bénéfices pour mes clients
+          X et à mon énergie positive au service des clients
+          X take our pour le benefice de mes clients second paragraph
+          X instead of signature, put "Laure"
+mes valeurs - change the picture to not being with children
+          X responsabilite: etre le garant de ses engagements
+
+parcours:
+          X coaching et conscience certificat SANS E
+          X Formation Coaching et Conscience chez Wakan
+          X add the link
+          X try to make the shadow of rounds a little darker
+          X http://www.wakan-sib.com/
+
+          X Formation à l'Approche Neuro-Cognitive et Comportementale chez INC, Bruxelles, Belgique
+          X https://fr.neurocognitivism.be/
+
+          X Représentation systémique d'entreprise SANS s
+          X Formation à la représentation systémique d'entreprise chez Wakan
+
+          X Master en Coaching et Communication
+          X Link: http://www.idc-coaching.com/
+
+          X Formation chez ALC - Académie de Langues et de Communication
+          X http://www.alc.ch/
+
+          X HEC Genève
+          X https://www.unige.ch/gsem/en/fr/
+
+          X master urbaniste
+          X http://www.enpc.fr/
+
+
+          contact
+          X take out email and telephone
+          X a gauche: put the logo for the location
+
+
+mum to give me:
+- photo cliente
+- photo contact
+- 4 textes 
+- put the flavicon to the actual website - why is it not showing up?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav bar
 coaching 
 ateliers?
@@ -142,6 +243,11 @@ Adresse
 Laure Oriol Sarl
 Lieux d'intervention
 Nyon, Genève, Lausanne, Paris, Londres, New York
+
+Laure Oriol est une coach d'exception ! J'ai la grande chance qu'elle m'accompagne depuis plus d'un
+an et demi dans mon développement professionnel et dans l'optimisation du management de la filiale
+suisse d'UCB. Ce que j'apprécie le plus chez Laure en 2 mots : son intelligence et sa bienveillance.
+Florence Penicaud, PharmD, MSc, Head of Market Access / Country representative CH UCB Pharma SA
 
 
 
