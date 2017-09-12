@@ -392,7 +392,6 @@ em {
   display: block;
   position: relative;
   padding-left: 30px;
-  padding-right: 110px;
 }
 
 .heavy {
@@ -416,9 +415,8 @@ em {
 }
 
 .about-photo-format {
-	vertical-align: bottom;
-  margin-left: -30px;
-  margin-top: 20px;
+  max-width: 100%;
+  background-position: center center;
 }
 
 .photo-container-about {
@@ -435,6 +433,7 @@ em {
   position: relative;
   z-index: 2;
  	background-size: cover;
+  background-position: center center;
 }
 
 .about-transparent {
@@ -1130,8 +1129,8 @@ strong {
 .atelier-text {
   font-weight: 100;
   font-size: 1em;
-  line-height: 28px;
-  letter-spacing: 3px;
+  line-height: 25px;
+  letter-spacing: 2px;
 }
 
 .atelier-button-properties {
