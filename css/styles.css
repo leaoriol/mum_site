@@ -116,6 +116,10 @@ em {
 
 /* ----------------- FOOTER --------------------*/
 
+.inline {
+  display: inline;
+}
+
 .signature {
 	background-color: #494949;
 }
@@ -461,6 +465,10 @@ em {
 	height: 350px;
 }
 
+.photo-text-dark-background {
+  background-color: rgba(132, 144, 116, 0.35);
+}
+
 .values-text {
 	font-family: 'Source Sans Pro';
 	font-weight: 200;
@@ -498,7 +506,7 @@ em {
 /* media only checks for desktop applications */
 
 .timeline-links {
-  color: #041e26;
+  color: #1c6075;
 }
 
 .cd-container {
