@@ -114,6 +114,10 @@ em {
   letter-spacing: 3px;
 }
 
+@media screen and (max-width: 600px) {
+   
+}
+
 /* ----------------- FOOTER --------------------*/
 
 .inline {
@@ -918,22 +922,10 @@ em {
 	display:block;
 }
 
-.button-learn-more {
-  border: 2px solid white;
-  color: white;
-  background-color: #7cad39;
-  padding: 12px 29px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  border-radius: 4px;
-
-}
-.button-learn-more:hover {
-  background-color: white;
-  border: 2px solid #7cad39;
-  color: #7cad39;
+@media screen and (max-width: 600px) {
+  .button-quote-properties {
+    margin-bottom: 60px;
+  }  
 }
 
 
@@ -943,6 +935,12 @@ em {
 	font-weight: 100;
 	margin-left: 18px;
   letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 600px) {
+  .questions li {
+    line-height: 22px;
+  }  
 }
 
 .offres-title {
@@ -981,6 +979,7 @@ em {
   line-height: 29px;
   padding-top: 20px;
 }
+
 
 .box-offres {
 	background-color: rgba(124, 173, 57, 0.9);
@@ -1300,6 +1299,14 @@ blockquote h2 {
 
 .center {
 	text-align: center;
+}
+
+
+
+/* -------------- mobile ------------------- */
+
+@media screen and (max-width: 600px) {
+
 }
 
 
