@@ -132,6 +132,9 @@ em {
 	display: inline-block;
 	margin-right: 40px;
 }
+.signature-div i {
+    font-size: 1.4em;
+}
 
 .signature-text {
 	color: #cae4d8;
@@ -144,10 +147,11 @@ em {
 	margin-right: 0;
 }
 
-@media (max-width: 500px) {
-	.signature {
+@media screen and (max-width: 600px) {
+	.signature-div {
 		display: block;
 		margin-right: 0;
+    margin-bottom: 10px;
 	}
 }
 
@@ -157,7 +161,7 @@ em {
 	margin-left: 40px; 
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 600px) {
 	.signature-item:after {
 		display: none;
 	}
@@ -299,6 +303,13 @@ em {
   letter-spacing: 2px;
 }
 
+@media screen and (max-width: 700px) {
+  .contact-me-title {
+    line-height: 50px;
+    margin-bottom: 25px;
+  }
+}
+
 .contact-me-subtitle {
 	text-align: center;
   font-size: 17px;
@@ -388,6 +399,12 @@ em {
   font-size: 42px;
 }
 
+@media screen and (max-width: 992px) {
+  .mobile-margin-location {
+    margin-top: 50px;
+  }
+}
+
 
 /* --------------- ABOUT ME PAGE -----------------*/
 
@@ -412,6 +429,14 @@ em {
 	font-size: 100%;
 	line-height: 21px;
 	font-weight: 300;
+}
+
+
+@media screen and (max-width: 600px) {
+  .light {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
 
 .about-text-signature {
@@ -485,9 +510,9 @@ em {
 .values-title {
 	text-align: center;
 	font-size: 1.9em;
-    font-weight: 200;
-    letter-spacing: 2px;
-    margin-bottom: 25px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
 }
 
 .values-description {
@@ -504,7 +529,25 @@ em {
   border: 2px rgba(202,228,216, 0.6) solid;
 }
 
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .values-description {
+    height: 210px;
+  }
+}
 
+@media screen and (max-width: 990px) {
+  .values-description {
+    height: 100px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 646px) {
+  .values-description {
+    height: 125px;
+    margin-bottom: 50px;
+  }
+}
 /* timeline */
 /* TIMELINE WITHIN REFERENCES */
 /* media only checks for desktop applications */
@@ -922,12 +965,11 @@ em {
 	display:block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .button-quote-properties {
     margin-bottom: 60px;
   }  
 }
-
 
 .questions li {
 	font-size: 1em;
@@ -937,7 +979,7 @@ em {
   letter-spacing: 0.5px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .questions li {
     line-height: 22px;
   }  
@@ -990,6 +1032,12 @@ em {
   padding-bottom: 50px;
   margin-left: 45px;
   margin-right: 45px;
+}
+
+@media screen and (max-width: 1200px) {
+  .ind-offer-box-mobile {
+    margin-top: 25px;
+  }
 }
 
 .button-coaching {
@@ -1053,6 +1101,12 @@ strong {
 	font-weight: 900;
   font-size: 16px;
   letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 1200px) {
+  .round-mobile-margin {
+    margin-bottom: 70px;
+  }
 }
 
 /* ---------------------- ATELIERS ---------------- */
@@ -1239,11 +1293,31 @@ blockquote h2 {
   width: 275px;
 }
 
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .references-people {
+    width: 220px;
+    top: 635px;
+  }
+  .long {
+    height: 900px;
+  }
+}
+
 .references-people-small {
   position: absolute;
   top: 385px;
   text-align: center;
   width: 275px;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .references-people-small {
+    width: 220px;
+    top: 500px;
+  }
+  .short {
+    height: 750px;
+  }
 }
 
 .references-names {
@@ -1303,12 +1377,42 @@ blockquote h2 {
 
 
 
-/* -------------- mobile ------------------- */
+/* -------------- margins ------------------- */
 
-@media screen and (max-width: 600px) {
-
+.mt1 {
+  margin-top: 6px;
+}
+.mt2 {
+  margin-top: 8px;
+}
+.mt3 {
+  margin-top: 12px;
+}
+.mt4 {
+  margin-top: 24px;
+}
+.mt5 {
+  margin-top: 36px;
+}
+.mt6 {
+  margin-top: 48px;
+}
+.mt7 {
+  margin-top: 80px;
 }
 
+.mb3 {
+  margin-bottom: 12px;
+}
+.mb4 {
+  margin-bottom: 24px;
+}
+.mb5 {
+  margin-bottom: 36px;
+}
+.mb6 {
+  margin-bottom: 48px;
+}
 
 /* -------------- PADDINGS ----------------- */
 
