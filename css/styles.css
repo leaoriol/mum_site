@@ -38,12 +38,11 @@ h1 {
 hr {
 	background-color: #7cad39;
   border: none;
-  border-radius: 2px;
   height: 2px;
 	margin-top: 30px;
 	margin-bottom: 30px;
   text-align: center;
-  width: 130px;
+  width: 170px;
 }
 
 .grey-section {
@@ -424,11 +423,16 @@ em {
 }
 
 .h1-coaching {
-/*  color: #041e26;
-*/  font-weight: 200;
+  font-weight: 200;
   font-size: 2.5em;
   letter-spacing: 2px;
   line-height: 80px;
+}
+
+@media screen and (max-width: 992px) {
+  .h1-coaching {
+    font-size: 2em;
+  }
 }
 
 .h2-coaching {
@@ -533,24 +537,24 @@ em {
 /* ---------------- CONTACT PAGE -------------- */
 
 
-.contact-title {
+/*.contact-title {
     padding-top: 45px;
     text-align: center;
     font-size: 3em;
     letter-spacing: 7.5px;
     font-weight: 200;
-}
+}*/
 
-.links-contact {
+/*.links-contact {
 	color: #041e26;
-}
+}*/
 
-.address-header {
+/*.address-header {
 	font-size: 1.8em;
 	font-weight: 100;
 	letter-spacing: 2px;
 	color: #041e26;
-}
+}*/
 
 .address-marker {
   margin-bottom: 10px;
