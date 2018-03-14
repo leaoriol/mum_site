@@ -476,6 +476,17 @@ em {
   }  
 }
 
+.small {
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+}
+
+.extra-small {
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+
 
 /* ----------------- HOME PAGE -----------------*/
 
@@ -1277,7 +1288,6 @@ strong {
 .references-border {
 	border: #dcae1d 2px solid;
 	border-radius: 50%;
-
 }
 
 .references-picture {
@@ -1305,16 +1315,20 @@ strong {
   border: 2px rgba(202,228,216, 0.6) solid;
 }
 
+.title-line-height {
+  line-height: 40px;
+}
+
 .long {
   height: 740px;
 }
 
 .short {
-  height: 630px;
+  height: 610px;
 }
 
 blockquote {
-  border:none;
+  border: none;
   quotes: "\201C""\201D""\2018""\2019";
 }
 
@@ -1344,23 +1358,16 @@ blockquote h2 {
 	display: inline;
 }
 
-.references-text {
-  font-size: 0.9em;
-  font-weight: 100;
-  line-height: 26px;
-  letter-spacing: 1px;
-}
-
-.references-title {
+/*.references-title {
   font-size: 25px;
   letter-spacing: 0.5px;
   padding-left: 10px;
   padding-right: 10px;
-}
+}*/
 
 .references-people {
   position: absolute;
-  top: 475px;
+  top: 565px;
   text-align: center;
   width: 275px;
 }
@@ -1377,7 +1384,7 @@ blockquote h2 {
 
 .references-people-small {
   position: absolute;
-  top: 385px;
+  top: 440px;
   text-align: center;
   width: 275px;
 }
