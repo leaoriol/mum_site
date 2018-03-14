@@ -397,9 +397,10 @@ em {
   height: 350px;
 }*/
 
-.photo-text-dark-background {
+/*.photo-text-dark-background {
   background-color: rgba(132, 144, 116, 0.35);
-}
+}*/
+
 
 /* ----------------- SHARED TYPOGRAPHY ----------------- */
 
@@ -423,21 +424,26 @@ em {
 }
 
 .h1-coaching {
-  font-weight: 200;
+/*  color: #041e26;
+*/  font-weight: 200;
   font-size: 2.5em;
-  color: #041e26;
-  line-height: 80px;
   letter-spacing: 2px;
+  line-height: 80px;
 }
 
 .h2-coaching {
   font-size: 2em;
   font-weight: 100;
-  line-height: 26px;
   letter-spacing: 1.5px;
+  line-height: 26px;
 }
 
-.h3-coaching {}
+.h3-coaching {
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+}
 
 .text-coaching {
   font-size: 1em;
@@ -446,6 +452,25 @@ em {
   line-height: 30px;
 }
 
+.text-coaching a {
+  text-decoration: none;
+  color: #7cad39;
+}
+
+.text-coaching a:hover {
+  border-bottom: 1px solid #7cad39;
+}
+
+.text-coaching li {
+  padding-top: 10px;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+  .text-coaching li {
+    line-height: 22px;
+  }  
+}
 
 
 /* ----------------- HOME PAGE -----------------*/
@@ -545,7 +570,7 @@ em {
 
 /* --------------- ABOUT ME PAGE -----------------*/
 
-.about-text-format {
+/*.about-text-format {
 	padding-right: 65px;
   padding-left: 40px;
 }
@@ -554,9 +579,9 @@ em {
   display: block;
   position: relative;
   padding-left: 30px;
-}
+}*/
 
-.heavy {
+/*.heavy {
 	font-size: 2em;
 	letter-spacing: 1.5px;
 }
@@ -566,23 +591,23 @@ em {
 	font-size: 100%;
 	line-height: 21px;
 	font-weight: 300;
-}
+}*/
 
-
+/*
 @media screen and (max-width: 600px) {
   .light {
     font-size: 18px;
     line-height: 25px;
   }
-}
-
+}*/
+/*
 .about-text-signature {
 	padding-right: 130px;
   float: right;
   padding-top: 40px;
   font-weight: 100;
   font-size: 1.25em;
-}
+}*/
 
 /*.values-text {
 	font-family: 'Source Sans Pro';
@@ -593,15 +618,23 @@ em {
 	letter-spacing: 4px
 }*/
 
-.values-title {
+/*.values-title {
 	text-align: center;
 	font-size: 1.9em;
   font-weight: 200;
   letter-spacing: 2px;
   margin-bottom: 25px;
+}*/
+
+.box-values {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border: 2px rgba(202,228,216, 0.6) solid; 
 }
 
-.values-description {
+/*.values-description {
 	height: 165px;
 	font-size: 1.1em;
   font-weight: 200;
@@ -613,7 +646,7 @@ em {
   padding-left: 30px;
   line-height: 25px;
   border: 2px rgba(202,228,216, 0.6) solid;
-}
+}*/
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
   .values-description {
@@ -638,9 +671,9 @@ em {
 /* TIMELINE WITHIN REFERENCES */
 /* media only checks for desktop applications */
 
-.timeline-links {
+/*.timeline-links {
   color: #1c6075;
-}
+}*/
 
 .cd-container {
   /* class is used to give a max-width to element and center it horizontally when max width is reached */
@@ -717,12 +750,14 @@ em {
   height: 40px;
   border-radius: 50%;
   box-shadow: 0 0 0 4px white, inset 0 3px 0 rgba(0, 0, 0, 0.15), 0 3px 0 4px rgba(0, 0, 0, 0.15);
-  background: #93D239; /* mum's color */
+  background: #7cad39;
 }
+
 .cd-timeline-img i {
   display: block;
   margin-top: 10px;
 }
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 70px;
@@ -1036,17 +1071,6 @@ em {
 @media screen and (max-width: 1200px) {
   .button-quote-properties {
     margin-bottom: 60px;
-  }  
-}
-
-.text-coaching li {
-	padding-top: 10px;
-	margin-left: 25px;
-}
-
-@media screen and (max-width: 1200px) {
-  .text-coaching li {
-    line-height: 22px;
   }  
 }
 
@@ -1422,6 +1446,9 @@ blockquote h2 {
   display:block;
 }
 
+.right-align {
+  text-align: right;
+}
 
 
 /* -------------- MARGINS ------------------- */
