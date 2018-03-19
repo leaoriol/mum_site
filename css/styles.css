@@ -167,9 +167,16 @@ em {
 
 .signature-text {
 	color: #cae4d8;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 100;
   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 990px) {
+  .signature-text {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }
 
 .signature-item:after {
@@ -543,6 +550,22 @@ em {
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  .contact-me-subtitle {
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+.mobile-margin {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 990px) {
+  .mobile-margin {
+    margin-bottom: 60px;
+  }
+}
 
 
 /* ---------------- CONTACT PAGE -------------- */
@@ -1422,6 +1445,10 @@ blockquote h2 {
 	height: 100%;
 	max-height: 150px;
   text-align: center;
+}
+
+.col-height {
+  height: 150px;
 }
 
 .row-height {
