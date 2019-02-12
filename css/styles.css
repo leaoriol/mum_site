@@ -62,11 +62,16 @@ em {
   width: 100px;
 }
 
+.logo-color {
+  color: #96bf0d;
+}
+
 
 /* ------------- NAV BAR ---------------------*/
 
 .nav-bar {
-	border-bottom: 2px solid #cae4d8;
+	/*border-bottom: 2px solid #cae4d8;*/
+  border-bottom: 1px solid #96bf0d;
   width: 100%;
 }
 
@@ -1439,19 +1444,10 @@ blockquote h2 {
 	padding-bottom: 12px;
 }
 
-/*.logo-wrapper {
-  height: 100px;
-}*/
-
-
-/*  .col-xs-6 {
-    height: 100px;
-  }*/
 
 .logo-wrapper {
   width: 100%;
-/*  display: flex;
-*/  min-height: 120px;
+  min-height: 120px;
 }
 
 .logo-image {
