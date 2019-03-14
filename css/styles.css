@@ -1313,46 +1313,9 @@ strong {
 
 /* ------------------- REFERENCES ---------------- */
 
-.references-border {
-	border: #dcae1d 2px solid;
-	border-radius: 50%;
-}
-
-.references-picture {
-	display: flex;
-  justify-content: center;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin: auto;
-  width: 130px;
-  height: 130px;
-  margin-top: 10px;
-}
-
-.round-picture {
-  max-width: 120px;
-	border-radius: 50%;
-}
 
 .anonymous-picture {
   color: rgba(220,174,29, 0.6);
-}
-
-.references-wrapping {
-  padding: 40px;
-  border: 2px rgba(202,228,216, 0.6) solid;
-}
-
-.title-line-height {
-  line-height: 40px;
-}
-
-.long {
-  height: 740px;
-}
-
-.short {
-  height: 610px;
 }
 
 blockquote {
@@ -1384,47 +1347,6 @@ blockquote p {
 
 blockquote h2 {
 	display: inline;
-}
-
-/*.references-title {
-  font-size: 25px;
-  letter-spacing: 0.5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}*/
-
-.references-people {
-  position: absolute;
-  top: 565px;
-  text-align: center;
-  width: 275px;
-}
-
-@media screen and (min-width: 991px) and (max-width: 1200px) {
-  .references-people {
-    width: 220px;
-    top: 635px;
-  }
-  .long {
-    height: 900px;
-  }
-}
-
-.references-people-small {
-  position: absolute;
-  top: 440px;
-  text-align: center;
-  width: 275px;
-}
-
-@media screen and (min-width: 991px) and (max-width: 1200px) {
-  .references-people-small {
-    width: 220px;
-    top: 500px;
-  }
-  .short {
-    height: 750px;
-  }
 }
 
 .references-names {

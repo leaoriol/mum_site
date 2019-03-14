@@ -1,0 +1,57 @@
+.references-wrapping {
+  padding: 30px;
+  border: 2px rgba(202,228,216, 0.6) solid;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.references-people {
+  text-align: center;
+  width: 275px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.references-picture {
+  margin: auto;
+  width: 130px;
+  height: 130px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.references-picture-border {
+  border: #dcae1d 2px solid;
+  border-radius: 50%;
+}
+
+.round-picture {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .references-private-clients {
+    font-size: 1.5em !important;
+    line-height: 1.2em;
+  }
+
+  .header {
+    margin-top: 80px !important;
+  }
+
+
+  .references-wrapping {
+    margin-bottom: 40px;
+  }
+}
+
+.testimonial-title {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-line-height {
+  line-height: 40px !important;
+}
