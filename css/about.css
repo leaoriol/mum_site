@@ -1,0 +1,18 @@
+.small {
+  font-variant: all-petite-caps;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .value-title {
+    margin-top: 50px;
+  }
+
+  .header {
+    padding-top: 36px !important;
+  }
+
+  .cd-timeline-content h2 {
+    font-size: 1.2em !important;
+  }
+}
