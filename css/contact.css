@@ -4,6 +4,10 @@
     border: 1px solid black;
 }
 
+.contact-box-border {
+  border-right: 1px solid green;
+}
+
 .square {
   border: solid 21px #f0f;
   width: 50px;
@@ -11,5 +15,19 @@
 }
 
 .test {
-	color: green;
+  color: green;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-box-border {
+    border-right: 1px solid transparent;
+  }
+
+  .photo-text-background-homepage {
+    width: auto !important;
+  }
+
+  .contact-padding {
+    padding-bottom: 0 !important;
+  }
 }
