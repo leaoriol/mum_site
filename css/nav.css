@@ -1,0 +1,132 @@
+@media screen and (min-width: 992px) {
+  .smallNav {
+      display: none !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .largeNav {
+      display: none !important;
+  }
+}
+
+
+.navbar {
+  border-bottom: 1px solid #96bf0d;
+  border-bottom: 1px solid #96bf0d7a;
+}
+
+.nav-button {
+  border: 1px solid #96bf0d;
+  padding: 10px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  text-decoration: none;
+  background-color: #96bf0d;
+}
+
+.nav-bar {
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-links li {
+  display: inline-block;
+  font-weight: 200;
+  letter-spacing: 1.2px;
+  line-height: 1.8em;
+  margin-right: 30px;
+}
+
+.nav-links li:not(:last-child) {
+  border-bottom: 3px transparent solid;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black !important;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  text-decoration: none;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.name {
+  font-family: 'Lora', serif;
+  font-size: 2.5em !important;
+  letter-spacing: 4px;
+  text-align: left;
+  font-variant: all-petite-caps;
+  color: #041e26 !important;
+  margin-top: -10px;
+
+}
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 2em !important;
+    letter-spacing: 2px;
+  }
+}
+
+.name a {
+  color: #041e26 !important;
+  text-decoration: none;
+}
+
+.name a:hover {
+  border-bottom: 1px #96bf0d solid;
+  text-decoration: none !important;
+}
+
+.nav-links li:hover:not(:last-child) {
+  border-bottom: 1px #96bf0d solid;
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links li:not(:last-child) {
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 1em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .name {
+    text-align: center;
+  }
+}
+
+.dropdown-item {
+  font-size: 14px;
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute !important;
+}
+
+.dropdown-menu.languages {
+  right: 0;
+  float: right;
+  left: inherit;
+}
+
+#smallNav .links a {
+  color: #041e26 !important;
+}

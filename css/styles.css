@@ -21,11 +21,13 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
 	margin: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5 {
   color: #041e26;
 	font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 h1 {
@@ -66,77 +68,14 @@ em {
   color: #96bf0d;
 }
 
-
-/* ------------- NAV BAR ---------------------*/
-
-.nav-bar {
-	/*border-bottom: 2px solid #cae4d8;*/
-  border-bottom: 1px solid #96bf0d;
-  width: 100%;
+a {
+  color: #96bf0d !important;
 }
 
-.nav-links {
-	list-style: none;
-	padding: 0;
-	text-align: center;
+a:hover {
+  color: #96bf0d !important;
 }
 
-.nav-links li {
-  border-bottom: 3px transparent solid;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 200;
-  letter-spacing: 1.4px;
-  line-height: 1.8em;
-  margin-bottom: 15px;
-  margin-right: 40px;
-  padding-top: 45px;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: black;
-}
-
-.nav-links li:last-child {
-	margin-right: 0;
-}
-
-.name {
-  font-family: 'Lora', serif;
-  font-size: 1.8em;
-  letter-spacing: 4px;
-  margin-bottom: 16px;
-	margin-left: 26px;
-  text-align: left;
-}
-
-.name a {
-  color: #041e26;
-  text-decoration: none;
-}
-
-.name a:hover {
-  border-bottom: 1px #7cad39 solid;
-}
-
-.nav-links li:hover {
-  border-bottom: 1px #7cad39 solid;
-}
-
-@media screen and (max-width: 768px) {
-  /* cell phone */
-  .nav-links li {
-    padding-top: 20px;
-    line-height: 1em;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .name {
-    text-align: center;
-  }
-}
 
 
 /* ----------------- FOOTER --------------------*/
@@ -454,7 +393,7 @@ em {
   line-height: 26px;
 }
 
-.h3-coaching {
+.h3-coaching h3 {
   font-size: 1.5em;
   font-weight: 200;
   letter-spacing: 0.8px;
