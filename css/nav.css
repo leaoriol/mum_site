@@ -25,6 +25,7 @@
 .nav-button:hover {
   text-decoration: none;
   background-color: #96bf0d;
+  color: white !important;
 }
 
 .nav-bar {

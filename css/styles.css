@@ -18,25 +18,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-	margin: 0;
-  -webkit-font-smoothing: antialiased;
-}
-
-h1, h2, h3, h4, h5 {
-  color: #041e26;
-	font-family: 'Source Sans Pro', sans-serif;
-
-}
-
-h1 {
-	font-size: 3.998em;
-  margin: 0;
-  padding-top: 45px;
-  text-align: center;
-}
-
 hr {
 	background-color: #7cad39;
   border: none;
@@ -52,10 +33,6 @@ hr {
 	margin: 0;
 }
 
-em {
-  font-style: italic;
-}
-
 .small-logo {
   width: 50px;
 }
@@ -64,21 +41,12 @@ em {
   width: 100px;
 }
 
-.logo-color {
-  color: #96bf0d;
-}
-
-a {
-  color: #96bf0d !important;
-}
-
-a:hover {
-  color: #96bf0d !important;
-}
-
-
 
 /* ----------------- FOOTER --------------------*/
+
+.footer {
+  padding: 25px;
+}
 
 .inline {
   display: inline;
@@ -112,7 +80,7 @@ a:hover {
 .signature-text {
 	color: #cae4d8;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -136,7 +104,7 @@ a:hover {
 }
 
 .signature-item a {
-  color: #cae4d8;
+  color: #cae4d8 !important;
 }
 
 .signature-item a:hover {
@@ -213,6 +181,8 @@ a:hover {
   position: relative;
   width: 100%;
   z-index: 2;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .photo-container-homepage {
@@ -350,93 +320,6 @@ a:hover {
 /*.photo-text-dark-background {
   background-color: rgba(132, 144, 116, 0.35);
 }*/
-
-
-/* ----------------- SHARED TYPOGRAPHY ----------------- */
-
-/* round letters */
-.header {
-  color: white;
-  font-family: 'Source Sans Pro';
-  font-weight: 200;
-  font-size: 2.5em;
-  letter-spacing: 4px;
-  line-height: 76px;
-  margin-top: 25px;
-}
-
-.flip-header {
-  color: #7cad39;
-  font-size: 1.2em;
-  font-weight: 200;
-  letter-spacing: 2px;
-  line-height: 46px;
-}
-
-.h1-coaching {
-  font-weight: 200;
-  font-size: 2.5em;
-  letter-spacing: 2px;
-  line-height: 80px;
-}
-
-@media screen and (max-width: 992px) {
-  .h1-coaching {
-    font-size: 2em;
-  }
-}
-
-.h2-coaching {
-  font-size: 2em;
-  font-weight: 100;
-  letter-spacing: 1.5px;
-  line-height: 26px;
-}
-
-.h3-coaching h3 {
-  font-size: 1.5em;
-  font-weight: 200;
-  letter-spacing: 0.8px;
-  line-height: 20px;
-}
-
-.text-coaching {
-  font-size: 1em;
-  font-weight: 200;
-  letter-spacing: 0.8px;
-  line-height: 30px;
-}
-
-.text-coaching a {
-  text-decoration: none;
-  color: #7cad39;
-}
-
-.text-coaching a:hover {
-  border-bottom: 1px solid #7cad39;
-}
-
-.text-coaching li {
-  padding-top: 10px;
-  margin-left: 25px;
-}
-
-@media screen and (max-width: 1200px) {
-  .text-coaching li {
-    line-height: 22px;
-  }  
-}
-
-.small {
-  font-size: 1.1em;
-  letter-spacing: 0.5px;
-}
-
-.extra-small {
-  font-size: 0.9em;
-  letter-spacing: 0.5px;
-  line-height: 20px;
-}
 
 
 /* ----------------- HOME PAGE -----------------*/
@@ -834,9 +717,8 @@ a:hover {
 .cd-timeline-content h2 {
   color: #041e26;
   font-size: 1.5em;
-  letter-spacing: 1px;
-  font-weight: 100;
-  line-height: 25px;
+  font-weight: 400;
+  line-height: 30px;
 }
 .cd-timeline-content .cd-date {
   display: inline-block;
