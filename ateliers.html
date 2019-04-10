@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="fr">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<title>Ateliers</title>
-		<link rel="stylesheet" href="css/bootstrap-theme.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+
 		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/nav.css">
+		<link rel="stylesheet" href="css/typography.css">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:300,400,300i" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:300,400,500,300i" rel="stylesheet">
 		<script src="https://use.fontawesome.com/04a30b4ab0.js"></script>
 
 
-		<script src="js/modernizer.js"></script> <!-- Modernizr -->
+		<script src="js/modernizer.js"></script>
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 		<script src="js/jquery.mobile.custom.min.js"></script>
-		<script src="js/footer.js"></script> <!-- Resource jQuery -->
-		<script src="js/jquery.flip.min.js"></script>
+		<script src="js/footer.js"></script> 
 
 		<!-- favicons -->
 		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
@@ -26,60 +26,129 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
     <link rel="manifest" href="favicons/manifest.json">
     <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+		
+    <!-- bootstrap scripts -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<!-- jquery flip -->
+		<script src="js/jquery.flip.min.js"></script>
+
 		<script>
-		$( document ).ready(function() {
-		    $(".flip").flip({
-		        trigger: 'hover'
-		    });
-		    console.log('called!');
-		});
+			$(document).ready(function() {
+			    $(".flip").flip({
+			      trigger: 'hover'
+			    });
+			    console.log('called!');
+			});
 		</script>
 	</head>
 
+
 	<body>
-		<section>
-			<div class="container nav-bar">
-				<div class="row pb2">
-					<div class="col-xs-12 col-md-5 col-lg-7">
-						<h1 class="name"><a href="index.html">LAURE ORIOL</a></h1>
-					</div>
-					<div class="col-xs-12 col-md-7 col-lg-5">
-						<ul class="nav-links">
-							<li><a href="coaching.html">Coaching</a></li>
-							<li><a href="Ateliers.html">Ateliers</a></li>
-							<li><a href="references.html">Références</a></li>
-							<li><a href="about.html">À propos</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
+
+		<!-- large nav -->
+		<nav class="navbar navbar-expand-lg navbar-style navbar-light largeNav">
+		  <div class="container">
+		    <a class="navbar-brand name" href="index.html">Laure Oriol</a>
+			   <div class="collapse navbar-collapse" id="navbarsExample07">
+		    	<div class="navbar-nav ml-auto">
+			      <ul class="nav-links mb-0">
+			        <li class="nav-item active">
+			          <a class="nav-link" href="coaching.html">Coaching</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="ateliers.html">Ateliers<span class="sr-only">(current)</span></a>
+			        </li>
+			        <li class="nav-item">
+			        	<a class="nav-link" href="references.html">Références</a>
+			        </li>
+			        <li class="nav-item">
+			        	<a class="nav-link" href="about.html">À propos</a>
+			        </li>
+			        <li class="nav-item">
+			        	<a class="nav-button" href="contact.html">Contact</a>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+		    <ul class="nav">
+			    <li class="nav-item dropdown">
+				    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">FR</a>
+				    <div class="dropdown-menu">
+				      <a class="dropdown-item" href="en/workshops.html">English</a>
+				    </div>
+				  </li>
+				</ul>
+		  </div>
+		</nav>
+
+
+		<!-- small nav -->
+		<nav class="navbar navbar-expand-lg navbar-style navbar-light smallNav">
+		  <div class="container">
+		    <a class="navbar-brand name" href="index.html">Laure Oriol</a>
+	    	<div class="navbar-nav ml-auto mr-3">
+			    <ul class="nav-links mb-0">
+				    <li class="nav-item dropdown links">
+					    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Coaching</a>
+					    <div class="dropdown-menu links">
+					    	<a class="dropdown-item" href="coaching.html">Coaching</a>
+					      <a class="dropdown-item" href="ateliers.html">Ateliers</a>
+					      <a class="dropdown-item" href="references.html">Références</a>
+					      <a class="dropdown-item" href="about.html">À propos</a>
+					    </div>
+					  </li>
+					</ul>
 				</div>
-			</div>
-		</section> <!-- navbar -->
+				<ul class="nav-links mb-0">
+					<li class="nav-item">
+	        	<a class="nav-button" href="contact.html">Contact</a>
+	        </li>
+				</ul>
+		    <ul class="nav">
+			    <li class="nav-item dropdown">
+				    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">FR</a>
+				    <div class="dropdown-menu languages">
+				      <a class="dropdown-item" href="en/workshops.html">English</a>
+				    </div>
+				  </li>
+				</ul>
+		  </div>
+		</nav>
+
+
+		<!-- photo banner section -->
 		<section >	
 			<div class="photo-container" style="background-image: url(images/banners/rawpixel-com-296612.jpg)">
 				<div class="photo-transparent-layer layer-height">
 					<div class="center aligner">
-						<div class="row pt6 aligner-item">
-							<div class="photo-text-background photo-text-background-general aligner">
-								<div class="photo-text aligner-item">
-									<h3 class="header pb4 pt2">ATELIERS</h3>
+						<div class="container">
+							<div class="row pt6 aligner-item">
+								<div class="photo-text-background photo-text-background-general aligner">
+									<div class="photo-text aligner-item">
+										<h3 class="header pb4 pt2">ATELIERS</h3>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section> <!-- ateliers pictures -->	
+		</section> 
+
+
+		<!-- descriptions -->	
 		<section class="white-section pb4">
 			<div class="container pb6">
-				<div class="row pt5 pb3">
-					<div class="center">
-						<p class="h1-coaching">Ateliers de développement</p>
-					</div>
+				<div class="center pt5">
+					<p class="h1-coaching">Ateliers de développement</p>
 				</div>
-				<div class="row pb5 center">
-					<div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3">
-							<p class="text-coaching">Ces ateliers vous inspirent? Chaque atelier a pour but de vous développer et de vous rendre plus serein et efficace dans votre vie professionnelle.</p>
+				<div class="pb5 center">
+					<div class="container-450">
+						<p class="text-coaching">Ces ateliers vous inspirent? Chaque atelier a pour but de vous développer et de vous rendre plus serein et efficace dans votre vie professionnelle.</p>
 					</div>
 				</div> <!-- ateliers descriptions -->
 				<div class="row pt2 pb7">
@@ -115,7 +184,7 @@
 						<div class="flip">
 							<div class="front">
 								<div class="atelier-title-background-front aligner">
-									<h2 class="flip-header center aligner-item">DEVELOPPER SON CHARISME</h2>
+									<h2 class="flip-header center aligner-item">DÉVELOPPER SON CHARISME</h2>
 								</div>
 							</div>
 							<div class="back">
@@ -126,13 +195,16 @@
 						</div>
 					</div>
 				</div> <!-- first row of ateliers -->
+
+
+
 				<!-- =========== NEW ROW ============ -->
 				<div class="row pt3 pb5">
-					<div class="col-xs-12 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 round-mobile-margin">
+					<div class="col-xs-12 col-md-4 offset-md-2 col-lg-4 offset-lg-2 round-mobile-margin">
 						<div class="flip">
 							<div class="front">
 								<div class="atelier-title-background-front aligner">
-									<h2 class="flip-header center aligner-item">GERER SON STRESS</h2>
+									<h2 class="flip-header center aligner-item">GÉRER SON STRESS</h2>
 								</div>
 							</div>
 							<div class="back">
@@ -146,7 +218,7 @@
 						<div class="flip">
 							<div class="front">
 								<div class="atelier-title-background-front aligner">
-									<h2 class="flip-header center aligner-item">LE STRESS: PRECIEUX?</h2>
+									<h2 class="flip-header center aligner-item">LE STRESS: PRÉCIEUX?</h2>
 								</div>
 							</div>
 							<div class="back">
@@ -158,7 +230,11 @@
 					</div>
 				</div> <!-- second row of ateliers -->
 			</div>
-		</section> <!-- ateliers descriptions -->
+		</section>
+
+
+
+		<!-- CTA -->
 		<section class="grey-section">
 			<div class="container">
 				<div class="row center pt7 pb7">
@@ -169,23 +245,28 @@
 					</div>
 				</div>
 			</div>
-		</section> <!-- contactez-moi -->
+		</section> 
+
+
+		<!-- footer -->
 		<section class="white-section signature">
-			<div class="container">
-				<div class="row pt3 pb3 center">
+			<div class="container center">
+				<div class="footer">
 					<div class="signature-div">
-						<p class="signature-text inline">©</p>
-						<p class="signature-text inline js-update-date">2017</p>
-						<p class="signature-item inline signature-text"> Laure Oriol - Business Coaching Conseil RH</p>
+						<p class="signature-text mb-0 inline">©</p>
+						<p class="signature-text mb-0 inline js-update-date">2017</p>
+						<p class="signature-item signature-text mb-0 inline">Laure Oriol - Business Coaching Conseil RH</p>
 					</div>
 					<div class="signature-div"> 
-						<p class="signature-item signature-text"><a href="mailto:laureoriol@laureoriol.ch" class="links">laureoriol@laureoriol.ch</a></p>
+						<p class="signature-item signature-text mb-0"><a href="mailto:laureoriol@laureoriol.ch" class="links">laureoriol@laureoriol.ch</a></p>
 					</div>
 					<div class="signature-div">
 						<a href="https://ch.linkedin.com/in/laure-oriol-78a6781" target="_blank"><i class="fa fa-linkedin linkedin" aria-hidden="true"></i></a>
 					</div>
 				</div>
 			</div>
-		</section> <!-- signature -->
+		</section>
+
+
 	</body>
 </html>
