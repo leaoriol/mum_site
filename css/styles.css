@@ -10,6 +10,9 @@
   * honey highlight - #dcae1d
   * grey - #eff5f5 (used for section backgrounds)
 
+
+  ==> #96bf0d
+
 ***/
 
 /* ---------- GLOBAL USAGE ------------ */
@@ -134,7 +137,7 @@ hr {
 /* BUTTONS */
 
 .button {
-  border-radius: 2px;
+  border-radius: 4px;
   display: inline-block;
   font-size: 16px;
   padding: 12px 29px;
@@ -143,19 +146,19 @@ hr {
 }
 
 .button-green-border {
-  border: 2px solid #7cad39;
-  color: #7cad39;
+  border: 2px solid #96bf0d;
+  color: #96bf0d;
 }
 
 .button-green-border:hover {
-  background-color: #7cad39;
+  background-color: #96bf0d;
   color: white !important;
   text-decoration: none;
 }
 
 .button-white-border {
   border: 2px solid white;
-  color: white;
+  color: white !important;
 }
 
 .button-white-border:hover {
@@ -173,6 +176,10 @@ hr {
   border: 2px transparent rgba(225,225,225,0.9);
   color: rgba(225,225,225,0.9);
   text-decoration: none;
+}
+
+.btn-coaching {
+  font-size: 1.4em;
 }
 
 
@@ -925,17 +932,10 @@ hr {
 /* -------------------- COACHING ---------- */
 
 
-.large-text-coaching {
-	font-size: 1.8em;
-  font-weight: 200;
-  display: inline-block;
-  padding-right: 5px;
-}
-
 .icon-coaching {
 	display: block;
 	text-align: center;
-	color: rgba(124, 173, 57, 0.5);
+	color: #96bf0d;
 }
 
 @media screen and (max-width: 1200px) {
@@ -978,14 +978,14 @@ hr {
 
 
 .box-coaching {
-	background-color: rgba(124, 173, 57, 0.9);
+	/*background-color: rgba(124, 173, 57, 0.9);*/
+  background-color: #6b8b00;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-left: 30px;
-  margin-right: 30px;
+  height: 100%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1116,6 +1116,10 @@ strong {
   margin:auto;
   width: 250px;
   height: 250px;
+}
+
+.atelier-title-background-back p {
+  font-weight: 400;
 }
 
 /*.atelier-title-text {
