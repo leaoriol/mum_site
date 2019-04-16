@@ -1,64 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Contact</title>
-		<link rel="stylesheet" href="css/bootstrap-theme.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/reset.css">
+
 		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/contact.css">
+		<link rel="stylesheet" href="css/nav.css">
+		<link rel="stylesheet" href="css/typography.css">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:300,400,300i" rel="stylesheet">
-		<script src="https://use.fontawesome.com/04a30b4ab0.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
-		<script src="js/modernizer.js"></script> <!-- Modernizr -->
+		<script src="js/modernizer.js"></script> 
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 		<script src="js/jquery.mobile.custom.min.js"></script>
-		<script src="js/footer.js"></script> <!-- Resource jQuery -->
+		<script src="js/footer.js"></script>
 
 		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
     <link rel="manifest" href="favicons/manifest.json">
     <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+
+    <!-- bootstrap scripts -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 	</head>
 
 	<body>
-		<section>
-			<div class="container nav-bar">
-				<div class="row pb2">
-					<div class="col-xs-12 col-md-5 col-lg-7">
-						<h1 class="name"><a href="index.html">LAURE ORIOL</a></h1>
-					</div>
-					<div class="col-xs-12 col-md-7 col-lg-5">
-						<ul class="nav-links">
-							<li><a href="coaching.html">Coaching</a></li>
-							<li><a href="ateliers.html">Ateliers</a></li>
-							<li><a href="references.html">Références</a></li>
-							<li><a href="about.html">À propos</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
+		<!-- large nav -->
+		<nav class="navbar navbar-expand-lg navbar-style navbar-light largeNav">
+		  <div class="container">
+		    <a class="navbar-brand name" href="index.html">Laure Oriol</a>
+			   <div class="collapse navbar-collapse" id="navbarsExample07">
+		    	<div class="navbar-nav ml-auto">
+			      <ul class="nav-links mb-0">
+			        <li class="nav-item active">
+			          <a class="nav-link" href="coaching.html">Coaching</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="ateliers.html">Ateliers</a>
+			        </li>
+			        <li class="nav-item">
+			        	<a class="nav-link" href="references.html">Références</a>
+			        </li>
+			        <li class="nav-item">
+			        	<a class="nav-link" href="about.html">À propos</a>
+			        </li>
+			        <li class="nav-item">
+			        	<a class="nav-button" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+		    <ul class="nav">
+			    <li class="nav-item dropdown">
+				    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">FR</a>
+				    <div class="dropdown-menu">
+				      <a class="dropdown-item" href="en/contact.html">English</a>
+				    </div>
+				  </li>
+				</ul>
+		  </div>
+		</nav>
+
+
+		<!-- small nav -->
+		<nav class="navbar navbar-expand-lg navbar-style navbar-light smallNav">
+		  <div class="container">
+		    <a class="navbar-brand name" href="index.html">Laure Oriol</a>
+	    	<div class="navbar-nav mr-2">
+			    <ul class="nav-links mb-0">
+				    <li class="nav-item dropdown links">
+					    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact</a>
+					    <div class="dropdown-menu links">
+					    	<a class="dropdown-item" href="coaching.html">Coaching</a>
+					      <a class="dropdown-item" href="ateliers.html">Ateliers</a>
+					      <a class="dropdown-item" href="references.html">Références</a>
+					      <a class="dropdown-item" href="about.html">À propos</a>
+					    </div>
+					  </li>
+					</ul>
 				</div>
-			</div>
-		</section> <!-- navbar -->
+				<div class="navbar-nav mr-2">
+					<ul class="nav-links mb-0">
+						<li class="nav-item">
+		        	<a class="nav-button" href="contact.html">Contact</a>
+		        </li>
+					</ul>
+				</div>
+				<div class="navbar-nav mr-2">
+			    <ul class="nav">
+				    <li class="nav-item dropdown">
+					    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">FR</a>
+					    <div class="dropdown-menu languages">
+					      <a class="dropdown-item" href="en/contact.html">English</a>
+					    </div>
+					  </li>
+					</ul>
+				</div>
+		  </div>
+		</nav>
+
+
 		<section>
-			<div class="photo-container-homepage" style="background-image: url(images/banners/contact-2.jpg)">
-				<div class="photo-transparent-layer layer-height-homepage aligner">
-					<div class="container center">
-						<div class="row aligner-item">
-							<div class="col-xs-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+			<div class="photo-container-homepage contact-container" style="background-image: url(images/banners/contact-2.jpg)">
+				<div class="photo-transparent-layer layer-height-homepage contact-layer">
+					<div class="container center py-5">
+						<div class="row py-5">
+							<div class="col-xs-12 col-md-8 offset-md-2">
 								<div class="photo-text-background photo-text-background-homepage">
 									<div class="photo-text aligner-item">
-										<h1 class="h1-coaching pb3 pt3">CONTACT</h1>
+										<!-- <h1 class="h1-coaching pb3 pt3">CONTACT</h1>
 										<p class="text-coaching pb1"><a href="mailto:laureoriol@laureoriol.ch">laureoriol@laureoriol.ch</a></p>
 										<hr></hr>
 										<p class="text-coaching pb1">+ 41 (79) 413 8450</p>
 										<hr></hr>
 										<p class="text-coaching pb2">Chemin de Trépomy 8</p>
-										<p class="text-coaching pb3">CH - 1299 Crans-près-Céligny</p>
+										<p class="text-coaching pb3">CH - 1299 Crans-près-Céligny</p> -->
+										<h1 class="h1-coaching py-3">CONTACT</h1>
+										<div class="row pb-4 mb-3">
+											<div class="col-6 green-border">
+												<a href="mailto:laureoriol@laureoriol.ch">
+													<i class="far fa-paper-plane fa-3x green"></i>
+													<p class="pt-1 mt-4 dark-text">laure.oriol@laureoriol.ch</p>
+												</a>
+											</div>
+											<div class="col-6">
+												<i class="fas fa-phone fa-3x green"></i>
+												<p class="pt-1 mt-4">+ 41 (79) 413 8450</p>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -66,44 +145,58 @@
 					</div>
 				</div>
 			</div>
-		</section> <!-- contact info -->
+		</section> 
+
+
+		<!-- contact info -->
 		<section class="white-section">
 			<div class="container">
 				<div class="row pt8 pb8">
+
 					<div class="col-xs-12 col-md-6 col-lg-6 center">
-						<h3 class="h1-coaching pb3">Adresse Administrative</h3>
-						<a href="https://goo.gl/maps/sXJcYZqi17B2" target="_blank"><img src="images/logos/logo_laure_oriol.jpg" alt="Laure Oriol Logo" class="small-logo"></a>
-						<p class="text-coaching pt2">Laure Oriol Sarl</p>
-						<p class="text-coaching pt1a">Chemin de Trépomy 8</p>
-						<p class="text-coaching pt1a">CH - 1299 Crans-près-Céligny</p>
+						<h3 class="h1-coaching">Adresse Administrative</h3>
+						<a href="https://goo.gl/maps/sXJcYZqi17B2" target="_blank">
+							<img src="images/logos/logo_laure_oriol.jpg" alt="Laure Oriol Logo" class="small-logo">
+							<p class="text-coaching pt2 dark-text">Laure Oriol Sàrl</p>
+							<p class="text-coaching pt1a dark-text">Chemin de Trépomy 8</p>
+							<p class="text-coaching pt1a dark-text">CH - 1299 Crans-près-Céligny</p>
+						</a>
 					</div>
+
 					<div class="col-xs-12 col-md-6 col-lg-6 center mobile-margin-location">
-						<h3 class="h1-coaching pb3">Lieux d'Intervention</h3>
-						<a href="http://www.regus.com/citysearch" target="_blank" class="contact-pin"><i class="fa fa-map-marker address-marker" aria-hidden="true"></i></a>
-						<p class="text-coaching pt2">Regus Business Centers</p>
-						<p class="text-coaching pt1a">Nyon, Genève, Lausanne, Paris, Londres, New York</p>
-						<p class="text-coaching pt1a">À étudier selon vos besoins</p>
+						<h3 class="h1-coaching">Lieux d'Intervention</h3>
+						<a href="http://www.regus.com/citysearch" target="_blank">
+							<i class="fas fa-map-marker-alt address-marker contact-pin" aria-hidden="true"></i>
+							<p class="text-coaching pt2 dark-text">Regus Business Centers</p>
+							<p class="text-coaching pt1a dark-text">Nyon, Genève, Lausanne, Paris, Londres, New York</p>
+							<p class="text-coaching pt1a dark-text">À étudier selon vos besoins</p>
+						</a>
 					</div>
 					</div>
 				</div>
 			</div>
-		</section> <!-- contact addresses -->
+		</section> 
+
+
+		<!-- footer -->
 		<section class="white-section signature">
-			<div class="container">
-				<div class="row pt3 pb3 center">
+			<div class="container center">
+				<div class="footer">
 					<div class="signature-div">
-						<p class="signature-text inline">©</p>
-						<p class="signature-text inline js-update-date">2017</p>
-						<p class="signature-item inline signature-text"> Laure Oriol - Business Coaching Conseil RH</p>
+						<p class="signature-text mb-0 inline">©</p>
+						<p class="signature-text mb-0 inline js-update-date">2017</p>
+						<p class="signature-item signature-text mb-0 inline">Laure Oriol - Business Coaching Conseil RH</p>
 					</div>
 					<div class="signature-div"> 
-						<p class="signature-item signature-text"><a href="mailto:laureoriol@laureoriol.ch" class="links">laureoriol@laureoriol.ch</a></p>
+						<p class="signature-item signature-text mb-0"><a href="mailto:laureoriol@laureoriol.ch" class="links">laureoriol@laureoriol.ch</a></p>
 					</div>
 					<div class="signature-div">
 						<a href="https://ch.linkedin.com/in/laure-oriol-78a6781" target="_blank"><i class="fab fa-linkedin-in linkedin" aria-hidden="true"></i></a>
 					</div>
 				</div>
 			</div>
-		</section> <!-- signature -->
+		</section>
+
+
 	</body>
 </html>

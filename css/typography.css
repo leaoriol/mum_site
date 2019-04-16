@@ -34,6 +34,10 @@ b, strong {
   font-weight: 500 !important;
 }
 
+.dark-text {
+  color: #041e26 !important;
+}
+
 .logo-color {
   color: #96bf0d;
 }

@@ -1,7 +1,7 @@
 .contact-box {
 	margin: 30px;
-    background-color: green;
-    border: 1px solid black;
+  background-color: green;
+  border: 1px solid black;
 }
 
 .contact-box-border {
@@ -14,8 +14,8 @@
   height: 50px;
 }
 
-.test {
-  color: green;
+.green {
+  color: #7cad39;
 }
 
 @media screen and (max-width: 768px) {
@@ -30,4 +30,8 @@
   .contact-padding {
     padding-bottom: 0 !important;
   }
+}
+
+.green-border {
+  border-right: 1px solid #7cad39;
 }
