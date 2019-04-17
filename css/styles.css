@@ -1171,6 +1171,7 @@ blockquote:before {
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 blockquote:after {
@@ -1180,6 +1181,7 @@ blockquote:after {
   line-height: 0.1em;
   margin-left: 0.25em;
   vertical-align: -0.4em;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 blockquote p {
@@ -1209,6 +1211,7 @@ blockquote h2 {
 
 
 .logo-wrapper {
+  margin: 10px;
   width: 100%;
   min-height: 120px;
 }
