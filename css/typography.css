@@ -131,3 +131,63 @@ b, strong {
   display: inline-block;
   padding-right: 5px;
 }
+
+.title {
+  color: #041e26;
+  font-size: 3.3em;
+  font-weight: 200;
+  letter-spacing: 4px;
+  line-height: 76px;
+}
+
+.subtitle {
+  color: #7cad39;
+  font-size: 25px;
+  text-align: center;
+}
+
+.subsubtitle {
+  text-align: center;
+  font-size: 1.414em;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #293d3d;
+  padding-right: 35px;
+  padding-left: 35px;
+  line-height: 30px;
+  letter-spacing: 0.8px;
+}
+
+.why-coaching-title {
+  font-size: 2em;
+}
+
+.why-coaching-subtitle {
+  font-size: 1.1em;
+  font-style: italic;
+  font-weight: 200;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .h1-coaching {
+    line-height: 50px;
+    margin-bottom: 25px;
+  }
+}
+
+.contact-me-subtitle {
+  color: #7cad39;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  line-height: 60px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-me-subtitle {
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+}
