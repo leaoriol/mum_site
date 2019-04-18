@@ -905,6 +905,18 @@ hr {
   }  
 }
 
+@media screen and (max-width: 768px) {
+  .coaching-offer {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .coaching-offer-box {
+    min-height: 90px;
+  }
+}
+
 /*.offres-title {
 	font-size: 1.2em;
   font-weight: 200;
@@ -949,12 +961,15 @@ hr {
   height: 100%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
+  .box-coaching {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
   .ind-offer-box-mobile {
     margin-top: 25px;
   }
 }
-
 
 /*.equipe-title-background {
 	border: #cae4d8 3px solid;
@@ -1228,7 +1243,7 @@ blockquote h2 {
 }
 @media screen and (max-width: 768px) {
   .aligner {
-    display: block;
+    /*display: block;*/
   }
 }
 

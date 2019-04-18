@@ -51,6 +51,12 @@ b, strong {
   margin-top: 25px;
 }
 
+/*@media screen and (max-width: 768px) {
+  .header {
+    margin-top: 25px;
+  }
+}*/
+
 .flip-header {
   color: #7cad39;
   font-size: 1.2em;
@@ -130,6 +136,12 @@ b, strong {
   font-weight: 400;
   display: inline-block;
   padding-right: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  .large-text-coaching {
+    font-size: 1.5em;
+  }
 }
 
 .title {
