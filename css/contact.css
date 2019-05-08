@@ -35,3 +35,9 @@
 .green-border {
   border-right: 1px solid #7cad39;
 }
+
+@media screen and (max-width: 768px) {
+  .green-border {
+    border-right: none;
+  }
+}
